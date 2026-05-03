@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "arbiterlib:item/craft_button"
+  },
+  "oversized_in_gui": true
+}

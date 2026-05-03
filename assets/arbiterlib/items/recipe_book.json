@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "arbiterlib:item/recipe_book"
+  },
+  "oversized_in_gui": true
+}

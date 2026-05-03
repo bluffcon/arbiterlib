@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "arbiterlib:item/craft_catalyst_slot_ring"
+  },
+  "oversized_in_gui": true
+}

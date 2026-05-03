@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "arbiterlib:item/toggle_on"
+  },
+  "oversized_in_gui": true
+}

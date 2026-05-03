@@ -15,9 +15,9 @@
 
 ### Custom Blocks
 Custom blocks can be registered by having an `item_display` entity with its data property like this
-```
-{arbiterlib:
-   {block:
+```json
+{"arbiterlib":
+   {"block":
        {"namespace": "arbiterlib",
         "function": "arbiterlib:lib/block/blocks/workbench/spawn",
         "drop_loottable": "arbiterlib:blocks/workbench",
@@ -38,16 +38,26 @@ Arbiter has some presets for shapes made out of particles. You need to use a mac
 # Requirements in implementation
 **For items:**
 > Custom Data:
+
 > `"arbiterlib": {"namespace":"arbiterlib","id":"workbench"}`
+
 > Lore:
+
 > Last line must always include the datapack namespace in italic blue text
+
 > `{"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": true}`
+
 **For blocks:**
 > Item Display entities with specific tags and entity data
+
 > Must include the `arbiterlib.block` entity tag
+
 > Data: `{arbiterlib:{block:{namespace:"arbiterlib",function:"arbiterlib:lib/block/blocks/workbench/spawn","drop_loottable": "arbiterlib:blocks/workbench"}}}`
+
 > When breaking, drop by using `function arbiterlib:lib/block/drop with entity @s data.arbiterlib.block` before killing @s.
+
 > Add block ticks to `#arbiterlib:t/block_ticks` and format each line like `execute as @s[tag=arbiterlib.block.workbench] run return run function arbiterlib:lib/block/blocks/workbench/tick`
+
 > Give your block the `arbiterlib.block.adjustable_light` tag to let Arbiter detect light changes and update your block's `brightness`
 
 ## About Arbiter
