@@ -37,10 +37,11 @@ Arbiter has some presets for shapes made out of particles. You need to use a mac
 
 # Requirements in implementation
 **For items:**
+
 Custom Data: must include
-`"arbiterlib": {"namespace":"arbiterlib","id":"workbench"}`
+- `"arbiterlib": {"namespace":"arbiterlib","id":"workbench"}`
 Lore: last line must always include the datapack namespace in italic blue text
-`{"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": true}`
+- `{"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": true}`
 
 **For blocks:**
 - Blocks are Item Display entities with specific tags and entity data
