@@ -1,0 +1,4 @@
+{
+    "criteria": {"name": {"trigger": "fall_from_height", "conditions": {"distance": {"y": {"min": 3.8}}}}},
+    "rewards": {"function": "arbiterlib:lib/triggers/fall/4_blocks"}
+}

@@ -1,0 +1,4 @@
+{
+    "criteria": {"name": {"trigger": "player_hurt_entity"}},
+    "rewards": {"function": "arbiterlib:lib/triggers/player_hurt_entity"}
+}

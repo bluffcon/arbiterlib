@@ -1,0 +1,27 @@
+execute unless score .reload_notification arbiterlib.settings matches -1 as @a unless entity @s[gamemode=survival] unless entity @s[gamemode=adventure] run function arbiterlib:load/message
+
+scoreboard objectives add arbiterlib.temp dummy
+scoreboard objectives add arbiterlib.state.strength dummy
+scoreboard objectives add arbiterlib.state.resistance dummy
+scoreboard objectives add arbiterlib.timer dummy
+scoreboard objectives add arbiterlib.knowledge dummy
+
+scoreboard objectives add arbiterlib.player dummy
+scoreboard objectives add arbiterlib.trigger.ask_server trigger
+
+scoreboard objectives add arbiterlib.block dummy
+scoreboard objectives add arbiterlib.block.active dummy
+scoreboard objectives add arbiterlib.block.state dummy
+scoreboard objectives add arbiterlib.block.errors dummy
+scoreboard objectives add arbiterlib.block.light dummy
+
+scoreboard objectives add arbiterlib.settings dummy
+
+scoreboard objectives add arbiterlib.stats.walk custom:minecraft.walk_one_cm
+
+function arbiterlib:ticks/quick
+function arbiterlib:ticks/regular
+function arbiterlib:ticks/redundant
+function #arbiterlib:load
+
+

@@ -1,0 +1,13 @@
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:2.000,pos2:0.000,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:1.984,pos2:0.251,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:1.937,pos2:0.497,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:1.860,pos2:0.736,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:1.753,pos2:0.964,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:1.618,pos2:1.176,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:1.458,pos2:1.369,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:1.275,pos2:1.541,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:1.072,pos2:1.689,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:0.852,pos2:1.810,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:0.618,pos2:1.902,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:0.375,pos2:1.965,speed:$(speed),count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/particle_$(rotation) {particle:$(particle),pos1:0.126,pos2:1.996,speed:$(speed),count:$(count)}

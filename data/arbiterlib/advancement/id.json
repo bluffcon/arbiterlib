@@ -1,0 +1,4 @@
+{
+    "criteria": {"name": {"trigger": "tick"}},
+    "rewards": {"function": "arbiterlib:lib/player/main"}
+}

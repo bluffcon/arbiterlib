@@ -1,0 +1,4 @@
+{
+    "criteria": {"name": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "arbiterlib:lib/player/first_activity"}
+}

@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "light": {
+      "light": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "can_see_sky": true
+  }
+}

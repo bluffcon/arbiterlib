@@ -1,0 +1,13 @@
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:2.000,pos2:0.000,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:1.984,pos2:0.251,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:1.937,pos2:0.497,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:1.860,pos2:0.736,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:1.753,pos2:0.964,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:1.618,pos2:1.176,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:1.458,pos2:1.369,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:1.275,pos2:1.541,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:1.072,pos2:1.689,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:0.852,pos2:1.810,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:0.618,pos2:1.902,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:0.375,pos2:1.965,speed:0,count:$(count)}
+$function arbiterlib:lib/particle/circle/macro/dust_$(rotation) {color:$(color),scale:$(scale),pos1:0.126,pos2:1.996,speed:0,count:$(count)}

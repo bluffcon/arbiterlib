@@ -1,0 +1,1 @@
+$execute if items block ~ ~ ~ container.$(slot) *[custom_data~{arbiterlib:{item:null}}] run item replace block ~ ~ ~ container.$(slot) with air

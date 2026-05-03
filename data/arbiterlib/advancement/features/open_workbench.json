@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "any_block_use",
+            "conditions": {
+                "location": [{"condition": "block_state_property", "block": "barrel"}]
+            }
+        }
+    },
+    "rewards": {"function": "arbiterlib:lib/block/blocks/workbench/open_advancement"}
+}

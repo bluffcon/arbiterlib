@@ -1,0 +1,4 @@
+{
+    "criteria": {"name": {"trigger": "inventory_changed"}},
+    "rewards": {"function": "arbiterlib:lib/items/inventory"}
+}

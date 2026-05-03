@@ -1,0 +1,2 @@
+execute if entity @s[type=player] run return run tellraw @s [{text:"⚠", color:"white"},{text:" | ", color:"#57575c"},{text:"This cannot be used on players", color:"#facf7f"}]
+tellraw @p [{text:"⚠", color:"white"},{text:" | ", color:"#57575c"},{text:"This cannot be used on players", color:"#facf7f"}]

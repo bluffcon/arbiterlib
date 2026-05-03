@@ -1,0 +1,2 @@
+execute if score @s arbiterlib.state.strength matches 1 run effect give @s strength infinite 100 true
+execute if score @s arbiterlib.state.resistance matches 1 run effect give @s resistance infinite 4 true

@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:entity_properties",
+  "predicate": {"movement": {
+    "fall_distance": {"min": 3.5}
+  }
+  },
+  "entity": "this"
+}
