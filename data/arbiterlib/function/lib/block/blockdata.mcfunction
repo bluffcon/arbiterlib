@@ -1,0 +1,2 @@
+$execute store result storage arbiterlib:block_data $(blockid).id int 1 run scoreboard players get @s arbiterlib.block
+$data modify entity @s data.arbiterlib.block_id set from storage arbiterlib:block_data $(blockid).id

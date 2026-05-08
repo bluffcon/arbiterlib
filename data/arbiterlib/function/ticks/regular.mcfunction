@@ -3,6 +3,7 @@ execute unless score .regular arbiterlib.timer matches 1.. run scoreboard player
 execute unless score .regular.count arbiterlib.timer matches ..0 run return run scoreboard players remove .regular.count arbiterlib.timer 1
 
 
+# for functions that can be ran as often as every 2 ticks and every second. server admins can override this
 function #arbiterlib:t/regular
 execute as @a at @s run function arbiterlib:ticks/regular/players
 execute as @e[type=item_display,tag=arbiterlib.block] at @s run function arbiterlib:lib/block/tick

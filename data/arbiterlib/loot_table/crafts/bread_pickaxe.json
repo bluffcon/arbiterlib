@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "functions": [
+            {"function": "set_components",
+                "components": {
+                    "item_model": "arbiterlib:bread_pickaxe",
+                    "item_name": {"translate": "block.arbiterlib.workbench","fallback": "Bread Pickaxe"},
+                    "custom_data": {
+                        "arbiterlib": {"namespace":"arbiterlib","id":"bread_pickaxe"}
+                    },
+                    "lore": [
+                        {"translate":"item.arbiterlib.workbench.description", "fallback": "The Bread Pickaxe", "color": "gray", "italic": false},
+                        {"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": true}
+                    ]
+                }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

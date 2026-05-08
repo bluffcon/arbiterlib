@@ -1,0 +1,15 @@
+execute unless items block ~ ~ ~ container.14 * run item replace block ~ ~ ~ container.14 with knowledge_book[rarity="common",tooltip_display={hide_tooltip:false},item_model="arbiterlib:highlight_slot_curious",custom_data={arbiterlib:{item:"null"}},item_name=[{translate:"ui.arbiterlib.workbench_altcraft_info.name",fallback:"Alternative Crafting?",color:white,italic:false}, {translate:"ui.arbiterlib.workbench_altcraft_info.dismiss",fallback:" (click or toggle to dismiss)",color:"#5a5a5a",italic:true}],lore=[ \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc1",fallback:"Some recipes (not all) might utilize this ",color:gray,italic:false},{translate:"ui.arbiterlib.workbench_toggle_on.desc2",fallback:"alternative",color:white,italic:false}], \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc3",fallback:"system for crafting. This is the ",color:gray,italic:false}, {translate:"ui.arbiterlib.workbench_toggle_on.desc4",fallback:"Catalyst",color:white,italic:false},{translate:"ui.arbiterlib.workbench_toggle_on.desc5",fallback:" slot, used",color:gray,italic:false}], \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc6",fallback:"as the primary item or source for the output, for",color:gray,italic:false}], \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc7",fallback:"example: a water bottle for a quick herbal mixture,",color:gray,italic:false}], \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc8",fallback:"or a blueprint for a complex machine.",color:gray,italic:false}], \
+]]
+
+execute if items block ~ ~ ~ container.14 *[custom_data~{arbiterlib:{item:null}}] run item replace block ~ ~ ~ container.14 with knowledge_book[rarity="common",tooltip_display={hide_tooltip:false},item_model="arbiterlib:highlight_slot_curious",custom_data={arbiterlib:{item:"null"}},item_name=[{translate:"ui.arbiterlib.workbench_altcraft_info.name",fallback:"Alternative Crafting?",color:white,italic:false}, {translate:"ui.arbiterlib.workbench_altcraft_info.dismiss",fallback:" (click or toggle to dismiss)",color:"#5a5a5a",italic:true}],lore=[ \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc1",fallback:"Some recipes (not all) might utilize this ",color:gray,italic:false},{translate:"ui.arbiterlib.workbench_toggle_on.desc2",fallback:"alternative",color:white,italic:false}], \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc3",fallback:"system for crafting. This is the ",color:gray,italic:false}, {translate:"ui.arbiterlib.workbench_toggle_on.desc4",fallback:"Catalyst",color:white,italic:false},{translate:"ui.arbiterlib.workbench_toggle_on.desc5",fallback:" slot, used",color:gray,italic:false}], \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc6",fallback:"as the primary item or source for the output, for",color:gray,italic:false}], \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc7",fallback:"example: a water bottle for a quick herbal mixture,",color:gray,italic:false}], \
+[{translate:"ui.arbiterlib.workbench_toggle_on.desc8",fallback:"or a blueprint for a complex machine.",color:gray,italic:false}], \
+]]

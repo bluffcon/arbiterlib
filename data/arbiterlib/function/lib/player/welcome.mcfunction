@@ -1,8 +1,11 @@
 
-title @s times 0 9999999 20
+title @s times 0 1200 20
 
 $tellraw @s $(message)
 $title @s title $(title)
+
+scoreboard players set @s arbiterlib.stats.walk 0
+advancement revoke @s only arbiterlib:move
 
 playsound entity.cat.ambient ui @s ~ ~ ~ 0.5 1.7
 playsound entity.arrow.hit_player ui @s ~ ~ ~ 0.8 2

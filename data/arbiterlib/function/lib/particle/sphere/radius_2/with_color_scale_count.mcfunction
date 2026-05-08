@@ -17,5 +17,3 @@ $execute rotated 150 0 run function arbiterlib:lib/particle/circle/radius_2/with
 $execute rotated 160 0 run function arbiterlib:lib/particle/circle/radius_2/with_rotation_color_scale_count {rotation:xy,color:$(color),scale:$(scale),count:$(count)}
 $execute rotated 170 0 run function arbiterlib:lib/particle/circle/radius_2/with_rotation_color_scale_count {rotation:xy,color:$(color),scale:$(scale),count:$(count)}
 
-
-
