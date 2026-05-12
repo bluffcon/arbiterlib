@@ -6,6 +6,6 @@ data modify storage arbiterlib:settings welcome.title set value {"text":"Welcome
 function #arbiterlib:first_time_join
 execute if score .world arbiterlib.timer matches 5.. run return fail
 
-# ask if this is really singleplayer - feel free to clear in your functions
-schedule function arbiterlib:load/prompt/schedule_ask 180s replace
+function arbiterlib:load/prompt/outcomes/silent_singleplayer
+
 function #arbiterlib:singleplayer_first_time_playing

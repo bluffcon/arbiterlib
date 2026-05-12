@@ -1,0 +1,20 @@
+{
+    "id.arbiterlib": "ArbiterLib",
+    "id.arbiterlib.short": "Arbiter",
+    
+    "ui.arbiterlib.modrinth_link": "Click to open Modrinth page",
+    "ui.arbiterlib.bracket.open": " └ [",
+    "ui.arbiterlib.bracket.close": "]",
+    "ui.arbiterlib.separator": " - ",
+
+    "ui.arbiterlib.welcome.1.1": "You're",
+    "ui.arbiterlib.welcome.1.2": " witnessing a game reload",
+    "ui.arbiterlib.welcome.2.1": "Your",
+    "ui.arbiterlib.welcome.2.2": " game has been reloaded",
+    "ui.arbiterlib.welcome.3.1": "You're",
+    "ui.arbiterlib.welcome.3.2": " being notified of a server reload",
+    
+    "ui.arbiterlib.config_tooltip.1": "Only non-survival players can see this message. ",
+    "ui.arbiterlib.config_tooltip.2": "Change that in ",
+    "ui.arbiterlib.config_tooltip.3": "/function arbiterlib:config"
+}

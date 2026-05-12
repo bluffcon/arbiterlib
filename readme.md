@@ -6,12 +6,17 @@
 - Player data storage, id bound, for storing and retrieving anything persistent
 - Customizable ticking times set by the admin, grouped together by necessity of the action
 
+Star this repo!! ⭐⭐⭐⭐⭐⭐
+
 ## Using Arbiter:
 - Use the Arbiter tick system:
 > `#arbiterlib:t/quick` for tick intervals, `#arbiterlib:t/regular` for simple jobs, `#arbiterlib:t/redundant` for things that should happen once in sometimes. Feel free to expand by adding your own ticks to `#arbiterlib:load`
 - Use Arbiter's entity tags, like excluding `#arbiterlib:inanimate` to search for living entities
 - Use Arbiter's `arbiterlib:player` score id system, from which you can access player data by using a macro on `arbiterlib:player_data` storage
-- Load your own message in `#arbiterlib:welcomes` and say hi to private worlds in `#arbiterlib:singleplayer_first_time_playing`
+- Load your own effects in `#arbiterlib:welcomes` and say hi to private worlds in `#arbiterlib:singleplayer_first_time_playing`
+- Add your message to the pool of random reload messages for server admins\
+
+> For the rest of info, please visit the `info.md` file
 
 ### Custom Blocks
 Custom blocks can be registered by having an `item_display` entity with its data property like this
@@ -41,8 +46,8 @@ Arbiter has some presets for shapes made out of particles. You need to use a mac
 Custom Data: must include
 - `"arbiterlib": {"namespace":"arbiterlib","id":"workbench"}`
 
-Lore: last line must always include the datapack namespace in italic blue text
-- `{"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": true}`
+Lore: last line must always include the datapack namespace in blue text
+- `{"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": false}`
 
 **For blocks:**
 - Blocks are Item Display entities with specific tags and entity data

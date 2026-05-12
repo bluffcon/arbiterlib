@@ -1,0 +1,1 @@
+$tellraw @s $(chosen_message)

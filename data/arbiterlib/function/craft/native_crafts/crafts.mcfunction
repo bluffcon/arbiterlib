@@ -14,4 +14,3 @@ unless items block ~ ~ ~ container.21 * \
 run return run function arbiterlib:craft/workbench/craft/found {namespace:"arbiterlib",item:"bread_pickaxe", loottable:"bread_pickaxe",rarity:"common",item:"stone_pickaxe"}
 
 
-function arbiterlib:craft/workbench/craft/no_recipe

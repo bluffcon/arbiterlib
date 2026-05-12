@@ -8,10 +8,3 @@ execute as @a unless score @s arbiterlib.trigger.ask_server matches -1..1 run re
 execute as @a if score @s arbiterlib.trigger.ask_server matches 1 run return run function arbiterlib:load/prompt/outcomes/singleplayer
 execute as @a if score @s arbiterlib.trigger.ask_server matches -1 run return run function arbiterlib:load/prompt/outcomes/server
 
-
-
-
-
-
-
-

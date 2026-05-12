@@ -1,0 +1,4 @@
+{
+    "criteria": {"name": {"trigger": "placed_block"}},
+    "rewards": {"function": "arbiterlib:lib/triggers/placed_block"}
+}

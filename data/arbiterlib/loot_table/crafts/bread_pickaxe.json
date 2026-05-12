@@ -17,7 +17,7 @@
                     },
                     "lore": [
                         {"translate":"item.arbiterlib.workbench.description", "fallback": "The Bread Pickaxe", "color": "gray", "italic": false},
-                        {"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": true}
+                        {"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": false}
                     ]
                 }
             }
