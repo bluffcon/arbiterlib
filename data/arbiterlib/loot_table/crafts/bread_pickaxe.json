@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -11,12 +10,12 @@
             {"function": "set_components",
                 "components": {
                     "item_model": "arbiterlib:bread_pickaxe",
-                    "item_name": {"translate": "block.arbiterlib.workbench","fallback": "Bread Pickaxe"},
+                    "item_name": {"translate": "item.arbiterlib.bread_pickaxe","fallback": "Bread Pickaxe"},
                     "custom_data": {
                         "arbiterlib": {"namespace":"arbiterlib","id":"bread_pickaxe"}
                     },
                     "lore": [
-                        {"translate":"item.arbiterlib.workbench.description", "fallback": "The Bread Pickaxe", "color": "gray", "italic": false},
+                        {"translate":"item.arbiterlib.bread_pickaxe.description", "fallback": "The Bread Pickaxe", "color": "gray", "italic": false},
                         {"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": false}
                     ]
                 }
