@@ -130,6 +130,14 @@ Now you're done. If you need a loot table template, you can also use the Bread P
 }
 ```
 
+### To-do
+- Shapeless crafting isn't possible yet
+- Shift-crafting stacks of items isn't possible yet
+- Alternative Crafting does not yet work
+- You have to constantly put down items one by one if you want to make stackable items
+- `optimized_crafting` is not yet implemented
+- The craft button is not yet implemented
+
 ## About Arbiter
 Arbiter could make things easier for you, but could also make them take more time depending on how you work. You're free to use it or not use it! Open an issue if you have thoughts on how to improve Arbiter or if you found an error within this code
 > Arbiter includes some heavy self-branding like putting its name in the reloads, having a default welcome message, etc. Don't be discouraged from using Arbiter because of this! Chances are, this exact name brought you here, making you interested in this library yourself. Most of these things can be overridden with an addon to Arbiter or configured to never show up by a server admin. We only want the name of the Arbiter to be heard loud and clear! Thank you for reading!
