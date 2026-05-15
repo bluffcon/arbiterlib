@@ -57,11 +57,78 @@ Lore: last line must always include the datapack namespace in blue text
 - Add block ticks to `#arbiterlib:t/block_ticks` and format each line like `execute as @s[tag=arbiterlib.block.workbench] run return run function arbiterlib:lib/block/blocks/workbench/tick`
 - Give your block the `arbiterlib.block.adjustable_light` tag to let Arbiter detect light changes and update your block's `brightness`
 
-**Crafting Recipes**
+### Crafting Recipes
+> This is done in Arbiter's **Workbench**: utility block made with 2 planks and 2 logs.
+Crafting works in 2 parts: making a fake preview item and then turning it real. For that you need 2 functions in 2 function tags: `#arbiterlib:workbench` for the recipe matching and `#arbiterlib:make_item` for creating the real item.
 
-The custom crafting via the Workbench is really broken currently. It is best advised to use other crafting libraries in the meantime.
+Currently crafting is kinda janky, it doesn't stack items, only crafts with the cursor, and there are some potential dupes despite the measures taken. Please contribute with code or an issue if you have any problems!
 
-Look at the example recipe of the bread pickaxe if you wanna learn more.
+### 1.
+`#arbiterlib:workbench` will have functions matching all items in the workbench for all 9 (10) slots, which will then run a separate function that will make a fake item in the output slot with your parameters.
+```js
+execute \
+if items block ~ ~ ~ container.1 bread \
+if items block ~ ~ ~ container.2 bread \
+if items block ~ ~ ~ container.3 bread \
+\
+unless items block ~ ~ ~ container.10 * \
+if items block ~ ~ ~ container.11 stick \
+unless items block ~ ~ ~ container.12 * \
+\
+unless items block ~ ~ ~ container.19 * \
+if items block ~ ~ ~ container.20 stick \
+unless items block ~ ~ ~ container.21 * \
+\
+run return run function arbiterlib:craft/workbench/craft/found {namespace:"arbiterlib",item:"bread_pickaxe", loottable:"bread_pickaxe",rarity:"common",item:"stone_pickaxe"}
+```
+> This matches for a pickaxe shape with 3 bread on top. The macro passed will be used to make a fake item.
+
+- **`loottable` points to <namespace>:crafts/<loottable>**
+- Rarity is the rarity of the item as a component
+- Item is the vanilla Minecraft item that this item is
+
+Basically this uses the loot table for the set components, and substitutes the item for a Knowledge Book with a set rarity which then reverts back.
+
+### 2.
+`#arbiterlib:make_item` will have another function call with matching for the picked up item. It should look like this:
+```js
+$execute if items entity @s $(slot) *[custom_data~{arbiterlib:{id:"bread_pickaxe"}}] run function arbiterlib:craft/workbench/craft/make_item {namespace:"arbiterlib",item:"bread_pickaxe", loottable:"bread_pickaxe",rarity:"common",item:"stone_pickaxe"}
+```
+> The macros passed are the same as before.
+
+### 3.
+Now you're done. If you need a loot table template, you can also use the Bread Pickaxe example:
+```json
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "functions": [
+            {"function": "set_components",
+                "components": {
+                    "item_model": "arbiterlib:bread_pickaxe",
+                    "item_name": {"translate": "item.arbiterlib.bread_pickaxe","fallback": "Bread Pickaxe"},
+                    "custom_data": {
+                        "arbiterlib": {"namespace":"arbiterlib","id":"bread_pickaxe"}
+                    },
+                    "lore": [
+                        {"translate":"item.arbiterlib.bread_pickaxe.description", "fallback": "The Bread Pickaxe", "color": "gray", "italic": false},
+                        {"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": false}
+                    ]
+                }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
+```
 
 ## About Arbiter
 Arbiter could make things easier for you, but could also make them take more time depending on how you work. You're free to use it or not use it! Open an issue if you have thoughts on how to improve Arbiter or if you found an error within this code

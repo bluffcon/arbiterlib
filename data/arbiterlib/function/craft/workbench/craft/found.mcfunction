@@ -1,3 +1,5 @@
+execute if items block ~ ~ ~ container.16 * unless items block ~ ~ ~ container.16 knowledge_book run return fail
+
 $loot replace block ~ ~ ~ container.16 loot $(namespace):crafts/$(loottable)
 item modify block ~ ~ ~ container.16 {function:set_item,item:knowledge_book}
 item modify block ~ ~ ~ container.16 {function:set_custom_data,tag:{arbiterlib:{craft:"uncrafted"}}}
