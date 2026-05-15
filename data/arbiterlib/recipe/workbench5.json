@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "AB",
+        "BA"
+    ],
+    "key": {"A":"#logs", "B":"#planks"},
+    "category": "misc",
+    "result": {"id":"wither_spawn_egg","components": {
+                        "entity_data": {"id": "item_display",
+                            "Tags": ["arbiterlib.block","arbiterlib.block.adjustable_light"],
+                            "data": 
+                                {"arbiterlib":
+                                    {"block":
+                                        {"namespace": "arbiterlib",
+                                            "function": "arbiterlib:lib/block/blocks/workbench/spawn",
+                                            "drop_loottable": "arbiterlib:blocks/workbench",
+                                            "id": "workbench"
+                                        }
+                                    }
+                                },
+                        "item": {"id": "crafting_table","components": {"item_model": "arbiterlib:workbench"}},
+                        "brightness": {
+                            "block": 15, "sky": 0
+                        },
+                        "transformation": {"left_rotation": [0.0, 0.0, 0.0, 1.0], "right_rotation": [0.0, 0.0, 0.0, 1.0], "scale": [1.001, 1.001, 1.001], "translation": [0.0, 0.5, 0.0]},
+                        "Rotation": [0,0],
+                        "glow_color_override": 16712194
+                        },
+                    "item_model": "arbiterlib:workbench",
+                    "item_name": {"translate": "block.arbiterlib.workbench","fallback": "Workbench"},
+                    "custom_data": {
+                        "arbiterlib": {"namespace":"arbiterlib","id":"workbench"}
+                    },
+                    "lore": [
+                        {"translate":"item.arbiterlib.workbench.description", "fallback": "Sound table for crafting", "color": "gray", "italic": false},
+                        {"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": true}
+                    ]
+                }
+    }
+}
