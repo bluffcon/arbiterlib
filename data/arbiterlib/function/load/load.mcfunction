@@ -18,6 +18,7 @@ scoreboard objectives add arbiterlib.settings dummy
 
 scoreboard objectives add arbiterlib.stats.walk custom:minecraft.walk_one_cm
 
+
 data modify storage arbiterlib:data reload set value {}
 function arbiterlib:load/message
 
