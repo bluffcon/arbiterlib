@@ -16,5 +16,22 @@
     
     "ui.arbiterlib.config_tooltip.1": "Only non-survival players can see this message. ",
     "ui.arbiterlib.config_tooltip.2": "Change that in ",
-    "ui.arbiterlib.config_tooltip.3": "/function arbiterlib:config"
+    "ui.arbiterlib.config_tooltip.3": "/function arbiterlib:config",
+    
+
+
+    "ui.raptap.welcome.1.1": "You've",
+    "ui.raptap.welcome.1.2": " devoted yourself once again!",
+    "ui.raptap.welcome.2.1": "You're",
+    "ui.raptap.welcome.2.2": " staring as dawn breaks the dirt...",
+
+    "ui.raptap.cross": "†",
+    "ui.raptap.shard": "⛧",
+    "enchantment.raptap.garner": "Garner",
+    "enchantment.raptap.clawing": "Clawing",
+    "subtitles.enchant.clawing.mine": "Witches fade",
+    "item.raptap.wax": "Wax",
+    "item.raptap.wax.description": "Used in candles, seals, and statues.",
+    "item.raptap.candle.description": "Burns brighter in a church.",
+    "item.raptap.honeycomb.description": "The proof of strength itself. Edible."
 }

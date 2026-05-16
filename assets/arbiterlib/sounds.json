@@ -1,0 +1,20 @@
+{
+    "enchant.clawing.mine": {
+        "sounds": [
+            "arbiterlib:enchant/clawing/mine1",
+            "arbiterlib:enchant/clawing/mine2",
+            "arbiterlib:enchant/clawing/mine3",
+            "arbiterlib:enchant/clawing/mine4"
+        ],
+        "subtitle": "subtitles.enchant.clawing.mine"
+        
+    },
+    "enchant.clawing.kill": {
+        "sounds": [
+            "arbiterlib:enchant/clawing/kill1",
+            "arbiterlib:enchant/clawing/kill2"
+        ],
+        "subtitle": "subtitles.enchant.clawing.kill"
+        
+    }
+}
