@@ -1,7 +1,7 @@
 {
     "pack": {
         "description": [{"text":"Arbiter", "color":"#facf7f","underlined": true}, {"text":": A Datapack Library ", "color":"#e7e3a4","underlined": false},{"text":"|","color":"#57575c","underlined": false},{"text":" by bluffcon", "color":"#cdcdd1","underlined": false}],
-        "min_format": [88,0],
-        "max_format": [88,0]
+        "min_format": [101,1],
+        "max_format": [101,1]
     }
 }
