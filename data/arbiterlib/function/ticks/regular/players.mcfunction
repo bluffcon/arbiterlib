@@ -1,5 +1,6 @@
 function #arbiterlib:t/regular/players
 
+execute as @e[distance=..10,tag=arbiterlib.button] at @s run function arbiterlib:button/tick
 
 execute if score @s arbiterlib.stats.walk matches 1.. run advancement grant @s only arbiterlib:move
 clear @s *[custom_data~{arbiterlib:{item:null}}]

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {"type": "interaction", ""}
+            }
+        }
+    }
+}
