@@ -1,1 +1,1 @@
-say 3434
+execute if entity @s[tag=arbiterlib.button.rotate] run rotate @s ~-3 ~
