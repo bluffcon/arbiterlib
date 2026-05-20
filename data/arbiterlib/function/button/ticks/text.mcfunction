@@ -1,0 +1,1 @@
+execute if entity @s[tag=arbiterlib.button.type.2at] run function arbiterlib:button/types/2_around_text/text

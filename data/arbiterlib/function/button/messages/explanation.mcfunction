@@ -1,0 +1,1 @@
+title @a[distance=..5] actionbar [{translate:"ui.arbiterlib.button_explanation.1"}, {keybind:"key.use"}, {translate:"ui.arbiterlib.button_explanation.2"}, {translate:"ui.arbiterlib.button_explanation.3"}, {keybind:"key.attack"}, {translate:"ui.arbiterlib.button_explanation.4"}]

@@ -16,5 +16,28 @@
         ],
         "subtitle": "subtitles.enchant.clawing.kill"
         
+    },
+    "enchant.awareness.activate": {
+        "sounds": [
+            "arbiterlib:enchant/awareness/activate"
+        ],
+        "subtitle": "subtitles.enchant.awareness.activate"
+    },
+    "enchant.awareness.deactivate": {
+        "sounds": [
+            "arbiterlib:enchant/awareness/deactivate"
+        ],
+        "subtitle": "subtitles.enchant.awareness.deactivate"
+    },
+    "enchant.awareness.demote": {
+        "sounds": [
+            "arbiterlib:enchant/awareness/demote"
+        ],
+        "subtitle": "subtitles.enchant.awareness.demote"
+    },
+    "sfx.vinyl_scratch": {
+        "sounds": [
+            "arbiterlib:sfx/scratch_from_bbc_library"
+        ]
     }
 }

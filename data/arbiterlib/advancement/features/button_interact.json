@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {"type": "interaction", "nbt": {"data": {"arbiterlib": {"entity": "button"}}}}
+            }
+        }
+    },
+    "rewards": {
+        "function": "arbiterlib:button/interaction/select/trigger"
+    }
+}

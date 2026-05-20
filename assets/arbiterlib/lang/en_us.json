@@ -18,6 +18,11 @@
     "ui.arbiterlib.config_tooltip.2": "Change that in ",
     "ui.arbiterlib.config_tooltip.3": "/function arbiterlib:config",
     
+    "ui.arbiterlib.button": "Button",
+    "ui.arbiterlib.button_explanation.1": "",
+    "ui.arbiterlib.button_explanation.2": " to select. ",
+    "ui.arbiterlib.button_explanation.3": "",
+    "ui.arbiterlib.button_explanation.4": " to confirm.",
 
 
     "ui.raptap.welcome.1.1": "You've",
@@ -30,8 +35,16 @@
     "enchantment.raptap.garner": "Garner",
     "enchantment.raptap.clawing": "Clawing",
     "subtitles.enchant.clawing.mine": "Witches fade",
+    "subtitles.enchant.clawing.kill": "Fading witches kill a beast",
+    "enchantment.raptap.awareness": "Awareness",
+    "subtitles.enchant.awareness.activate": "Awareness protects",
+    "subtitles.enchant.awareness.deactivate": "Awareness protection fades",
+    "subtitles.enchant.awareness.demote": "Awareness loses a level",
+    "death.attack.clawing": "Ravenous %1$ss, COME! and SLAUGHTER eachother!",
+    "death.attack.clawing.player": "%2$s has offered their blood to consume %1$s",
+
     "item.raptap.wax": "Wax",
     "item.raptap.wax.description": "Used in candles, seals, and statues.",
-    "item.raptap.candle.description": "Burns brighter in a church.",
+    "item.raptap.candle.description": "Burns brighter next to the ones you love.",
     "item.raptap.honeycomb.description": "The proof of strength itself. Edible."
 }
