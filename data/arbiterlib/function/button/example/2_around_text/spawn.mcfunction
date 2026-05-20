@@ -24,7 +24,7 @@ execute align xyz run summon text_display ~0.5 ~0.75 ~0.5 {text:"???", \
 # select function is what runs when you interact with it to select a choice
 
 # you absolutely dont have to and probably shouldn't set both of these to the same function like in here,
-# but this isn't complicated so it can be done like this as well.
+# but this isn't a really complicated example, so its simplified
 
 summon item_display ~ ~ ~ { \
     Tags: ["arbiterlib.button","arbiterlib.button.type.2at.1","arbiterlib.button.rotate"], \
