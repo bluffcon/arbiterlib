@@ -65,3 +65,4 @@ summon item_display ~ ~ ~ { \
         scale:[0.5,0.5,0.5],translation:[0,0.25,0]}, \
     brightness:{block:0,sky:0} \
 }
+

@@ -46,5 +46,13 @@
     "item.raptap.wax": "Wax",
     "item.raptap.wax.description": "Used in candles, seals, and statues.",
     "item.raptap.candle.description": "Burns brighter next to the ones you love.",
-    "item.raptap.honeycomb.description": "The proof of strength itself. Edible."
+    "item.raptap.honeycomb.description": "The proof of strength itself. Edible.",
+
+    "item.raptap.holy_cross": "Holy Cross",
+    "item.raptap.holy_cross.charge_1": "Holy Cross [1/4]",
+    "item.raptap.holy_cross.charge_2": "Holy Cross [2/4]",
+    "item.raptap.holy_cross.charge_3": "Holy Cross [3/4]",
+    "item.raptap.holy_cross.charge_4": "Holy Cross [4/4]",
+    "item.raptap.holy_cross.charge_5": "Holy Cross [5/4]",
+    "item.raptap.holy_cross.description": "Blessed weapon, capable of both support and judgement."
 }
