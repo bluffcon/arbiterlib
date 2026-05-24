@@ -1,0 +1,97 @@
+{
+    "id.arbiterlib": "ArbiterLib",
+    "id.arbiterlib.short": "Arbiter",
+    
+    "ui.arbiterlib.modrinth_link": "Нажмите, чтобы открыть на Modrinth",
+    "ui.arbiterlib.bracket.open": " └ [",
+    "ui.arbiterlib.bracket.close": "]",
+    "ui.arbiterlib.separator": " - ",
+
+    "ui.arbiterlib.welcome.1.1": "Вы",
+    "ui.arbiterlib.welcome.1.2": " свидетель перезагрузки",
+    "ui.arbiterlib.welcome.2.1": "Ваша",
+    "ui.arbiterlib.welcome.2.2": " игра была перезагружена",
+    "ui.arbiterlib.welcome.3.1": "Вам",
+    "ui.arbiterlib.welcome.3.2": " доставлено уведомление о перезагрузке",
+    
+    "ui.arbiterlib.config_tooltip.1": "Только игроки вне режима выживания видят это сообщение. ",
+    "ui.arbiterlib.config_tooltip.2": "Настройте в ",
+    "ui.arbiterlib.config_tooltip.3": "/function arbiterlib:config",
+    
+    "ui.arbiterlib.button": "Кнопка",
+    "ui.arbiterlib.button_explanation.1": "Нажмите [",
+    "ui.arbiterlib.button_explanation.2": "], чтобы выбрать. ",
+    "ui.arbiterlib.button_explanation.3": "Нажмите [",
+    "ui.arbiterlib.button_explanation.4": "], чтобы подтвердить.",
+
+
+
+
+
+
+    "id.raptap": "Rapt and Pious",
+    "id.raptap.short": "RaptaP",
+    "ui.raptap.welcome.1.1": "Вы",
+    "ui.raptap.welcome.1.2": " вновь посвящаете себя!",
+    "ui.raptap.welcome.2.1": "Смотрите",
+    "ui.raptap.welcome.2.2": " на проламывающий землю рассвет...",
+    "ui.raptap.cross": "†",
+    "ui.raptap.shard": "⛧",
+    "enchantment.raptap.garner": "Жатва",
+    "enchantment.raptap.clawing": "Рвя Когтями",
+    "subtitles.enchant.clawing.mine": "Ведьмы рассеиваются",
+    "subtitles.enchant.clawing.kill": "Ведьмы пожирают зверя",
+    "enchantment.raptap.awareness": "Осознание",
+    "subtitles.enchant.awareness.activate": "Осознание защищает",
+    "subtitles.enchant.awareness.deactivate": "Защита Осознания угасла",
+    "subtitles.enchant.awareness.demote": "Осознание теряет уровень",
+    "death.attack.clawing": "Голодный %1$s, ВОССТАНЬ! Отведай чужой ПЛОТИ!",
+    "death.attack.clawing.player": "%2$s обагрился своей кровью, пожравшую %1$s",
+
+    "item.raptap.wax": "Воск",
+    "item.raptap.wax.description": "Из него есть свечи, фигуры и сургучные печати.",
+    "item.raptap.candle.description": "Горит ярче в присутствии любви.",
+    "item.raptap.honeycomb.description": "Доказательство самой сила. Съедобные.",
+
+    "item.raptap.holy_cross": "Святой Крест",
+    "item.raptap.holy_cross.charge_1": "Святой Крест [1/4]",
+    "item.raptap.holy_cross.charge_2": "Святой Крест [2/4]",
+    "item.raptap.holy_cross.charge_3": "Святой Крест [3/4]",
+    "item.raptap.holy_cross.charge_4": "Святой Крест [4/4]",
+    "item.raptap.holy_cross.charge_5": "Святой Крест [5/4]",
+    "item.raptap.holy_cross.description": "Благословлённый, от мира несущий и милость, и суд.",
+    "enchantment.raptap.tenets_against_heretics": "Доктрина о еретиках",
+    "subtitles.effect.heresy_bind.get": "Ваш удар, очищенный от ереси",
+    "subtitles.effect.heresy_bind.use": "Меч Одержимых вырван из ножен...",
+    "subtitles.effect.heresy_bind.hurt": "Меч Одержимых вонзился!",
+    "enchantment.raptap.dogmata": "Догмат",
+    "enchantment.raptap.orison": "Молясь",
+
+    "enchantment.raptap.faith": "Вера",
+    "enchantment.raptap.lullaby": "Колыбель",
+    "enchantment.raptap.outlooks": "Взгляды",
+    "enchantment.raptap.roaring_legend": "Ревущая Легенда",
+    "enchantment.raptap.true_roaring_legend": "Та самая Ревущая Легенда",
+
+
+
+
+
+
+    "id.autofisher": "Autofisher Net",
+    "id.autofisher.short": "Autofisher",
+    "ui.autofisher.welcome.1": "Вашей",
+    "ui.autofisher.welcome.2": " игре попутного ветра!",
+
+    "block.autofisher.net": "Сеть авторыбалки",
+    "block.autofisher.net.description": "Автоматически ловит рыбу и выбрасывает её как предмет",
+    
+    "ui.autofisher.net.remove_text": "Что вы хотите сделать?",
+    "ui.autofisher.net.add_bait": "Добавить приманку",
+    "ui.autofisher.net.add_bait.1": " (Есть: ",
+    "ui.autofisher.net.add_bait.2": ")",
+    "ui.autofisher.net.bait_how_to_add.1": "Нажмите [",
+    "ui.autofisher.net.bait_how_to_add.2": "] с Морской травой в руке, чтобы добавить приманку",
+    "ui.autofisher.net.break_net": "Сломать сеть",
+    "ui.autofisher.bait_colon": "Приманки: "
+}

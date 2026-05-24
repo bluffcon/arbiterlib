@@ -19,17 +19,22 @@
     "ui.arbiterlib.config_tooltip.3": "/function arbiterlib:config",
     
     "ui.arbiterlib.button": "Button",
-    "ui.arbiterlib.button_explanation.1": "",
-    "ui.arbiterlib.button_explanation.2": " to select. ",
-    "ui.arbiterlib.button_explanation.3": "",
-    "ui.arbiterlib.button_explanation.4": " to confirm.",
+    "ui.arbiterlib.button_explanation.1": "[",
+    "ui.arbiterlib.button_explanation.2": "] to select. ",
+    "ui.arbiterlib.button_explanation.3": "[",
+    "ui.arbiterlib.button_explanation.4": "] to confirm.",
 
 
+
+
+
+
+    "id.raptap": "Rapt and Pious",
+    "id.raptap.short": "RaptaP",
     "ui.raptap.welcome.1.1": "You've",
     "ui.raptap.welcome.1.2": " devoted yourself once again!",
     "ui.raptap.welcome.2.1": "You're",
     "ui.raptap.welcome.2.2": " staring as dawn breaks the dirt...",
-
     "ui.raptap.cross": "†",
     "ui.raptap.shard": "⛧",
     "enchantment.raptap.garner": "Garner",
@@ -54,5 +59,39 @@
     "item.raptap.holy_cross.charge_3": "Holy Cross [3/4]",
     "item.raptap.holy_cross.charge_4": "Holy Cross [4/4]",
     "item.raptap.holy_cross.charge_5": "Holy Cross [5/4]",
-    "item.raptap.holy_cross.description": "Blessed weapon, capable of both support and judgement."
+    "item.raptap.holy_cross.description": "Blessed weapon, capable of both support and judgement.",
+    "enchantment.raptap.tenets_against_heretics": "Tenets against Heretics",
+    "subtitles.effect.heresy_bind.get": "Your attack is unbound by heresy",
+    "subtitles.effect.heresy_bind.use": "Heretic Sword unsheathes...",
+    "subtitles.effect.heresy_bind.hurt": "Heretic Sword attacks!",
+    "enchantment.raptap.dogmata": "Dogmata",
+    "enchantment.raptap.orison": "Orison",
+
+    "enchantment.raptap.faith": "Faith",
+    "enchantment.raptap.lullaby": "Lullaby",
+    "enchantment.raptap.outlooks": "Outlooks",
+    "enchantment.raptap.roaring_legend": "Roaring Legend",
+    "enchantment.raptap.true_roaring_legend": "The Roaring Legend",
+
+    
+
+
+
+
+    "id.autofisher": "Autofisher Net",
+    "id.autofisher.short": "Autofisher",
+    "ui.autofisher.welcome.1": "Your",
+    "ui.autofisher.welcome.2": " game's ready for another swim!",
+
+    "block.autofisher.net": "Autofisher Net",
+    "block.autofisher.net.description": "Catches fish automatically and drops it as an item",
+    
+    "ui.autofisher.net.remove_text": "What would you like to do?",
+    "ui.autofisher.net.add_bait": "Add bait",
+    "ui.autofisher.net.add_bait.1": " (Has: ",
+    "ui.autofisher.net.add_bait.2": ")",
+    "ui.autofisher.net.bait_how_to_add.1": "Press [",
+    "ui.autofisher.net.bait_how_to_add.2": "] with Seagrass in hand to add bait",
+    "ui.autofisher.net.break_net": "Break this net",
+    "ui.autofisher.bait_colon": "Bait: "
 }

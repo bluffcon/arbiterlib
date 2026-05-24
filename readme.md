@@ -54,7 +54,7 @@ Lore: last line must always include the datapack namespace in blue text
 - Must include the `arbiterlib.block` entity tag
 - Data: `{"arbiterlib":{"block":{"namespace":"arbiterlib","function":"arbiterlib:lib/block/blocks/workbench/spawn","drop_loottable": "arbiterlib:blocks/workbench"}}}`
 - When breaking, drop by using `function arbiterlib:lib/block/drop with entity @s data.arbiterlib.block` before killing @s.
-- Add block ticks to `#arbiterlib:t/block_ticks` and format each line like `execute as @s[tag=arbiterlib.block.workbench] run return run function arbiterlib:lib/block/blocks/workbench/tick`
+- Add block ticks to `#arbiterlib:t/block_ticks` and format each line like `execute if entity @s[tag=arbiterlib.block.workbench] run return run function arbiterlib:lib/block/blocks/workbench/tick`
 - Give your block the `arbiterlib.block.adjustable_light` tag to let Arbiter detect light changes and update your block's `brightness`
 
 ### Crafting Recipes

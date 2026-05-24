@@ -35,6 +35,24 @@
         ],
         "subtitle": "subtitles.enchant.awareness.demote"
     },
+    "effect.heresy_bind.use": {
+        "sounds": [
+            "arbiterlib:effect/heresy_bind"
+        ],
+        "subtitle": "subtitles.effect.heresy_bind.use"
+    },
+    "effect.heresy_bind.hurt": {
+        "sounds": [
+            "arbiterlib:effect/heresy_hurt"
+        ],
+        "subtitle": "subtitles.effect.heresy_bind.hurt"
+    },
+    "effect.heresy_bind.get": {
+        "sounds": [
+            "arbiterlib:effect/heresy_bind_get"
+        ],
+        "subtitle": "subtitles.effect.heresy_bind.get"
+    },
     "sfx.vinyl_scratch": {
         "sounds": [
             "arbiterlib:sfx/scratch_from_bbc_library"
