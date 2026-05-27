@@ -57,5 +57,21 @@
         "sounds": [
             "arbiterlib:sfx/scratch_from_bbc_library"
         ]
+    },
+    "sfx.autofisher.water_splash": {
+        "sounds": [
+            "arbiterlib:sfx/water_splash1",
+            "arbiterlib:sfx/water_splash2"
+        ],
+        "subtitle": "subtitles.autofisher.water_splash"
+    },
+    "sfx.autofisher.fishing_reel": {
+        "sounds": [
+            "arbiterlib:sfx/fishing_reel1",
+            "arbiterlib:sfx/fishing_reel2",
+            "arbiterlib:sfx/fishing_reel3",
+            "arbiterlib:sfx/fishing_reel4"
+        ],
+        "subtitle": "subtitles.autofisher.fishing_reel"
     }
 }

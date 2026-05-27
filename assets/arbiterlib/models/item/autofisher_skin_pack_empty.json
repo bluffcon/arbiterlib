@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arbiterlib:item/autofisher_skin_pack_empty"
+  }
+}

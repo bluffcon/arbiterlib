@@ -3,6 +3,7 @@
     "id.arbiterlib.short": "Arbiter",
     
     "ui.arbiterlib.modrinth_link": "Click to open Modrinth page",
+    "ui.arbiterlib.github_link": "Click to open GitHub page",
     "ui.arbiterlib.bracket.open": " └ [",
     "ui.arbiterlib.bracket.close": "]",
     "ui.arbiterlib.separator": " - ",
@@ -18,11 +19,22 @@
     "ui.arbiterlib.config_tooltip.2": "Change that in ",
     "ui.arbiterlib.config_tooltip.3": "/function arbiterlib:config",
     
+    "ui.arbiterlib.missing.1": "You are missing the ArbiterLib datapack on this server",
+    "ui.arbiterlib.missing.2": "You have the resourcepack installed, but your game world does not have ArbiterLib in it! Most of the features offered by some of the datapacks downloaded will not work completely and your world might break.",
+    "ui.arbiterlib.missing.modrinth": "[Get ArbiterLib datapack on Modrinth]",
+    "ui.arbiterlib.missing.github": "[Get ArbiterLib datapack on GitHub]",
+    
     "ui.arbiterlib.button": "Button",
     "ui.arbiterlib.button_explanation.1": "[",
     "ui.arbiterlib.button_explanation.2": "] to select. ",
     "ui.arbiterlib.button_explanation.3": "[",
     "ui.arbiterlib.button_explanation.4": "] to confirm.",
+    
+    "advancements.arbiterlib.by": " - ",
+    "advancements.arbiterlib.alternative_story": "Alternative Story",
+    "advancements.arbiterlib.alternative_story.description": "What could've been the heart and story of the game",
+    "advancements.arbiterlib.lets_interact": "Let's Interact",
+    "advancements.arbiterlib.lets_interact.description": "Create any Arbiter block",
 
 
 
@@ -78,12 +90,13 @@
 
 
 
-    "id.autofisher": "Autofisher Net",
+    "id.autofisher": "Autofisher",
     "id.autofisher.short": "Autofisher",
+    "ui.autofisher.welcome.0": "",
     "ui.autofisher.welcome.1": "Your",
     "ui.autofisher.welcome.2": " game's ready for another swim!",
 
-    "block.autofisher.net": "Autofisher Net",
+    "block.autofisher.net": "Fishing Net",
     "block.autofisher.net.description": "Catches fish automatically and drops it as an item",
     
     "ui.autofisher.net.remove_text": "What would you like to do?",
@@ -93,5 +106,33 @@
     "ui.autofisher.net.bait_how_to_add.1": "Press [",
     "ui.autofisher.net.bait_how_to_add.2": "] with Seagrass in hand to add bait",
     "ui.autofisher.net.break_net": "Break this net",
-    "ui.autofisher.bait_colon": "Bait: "
+    "ui.autofisher.bait_colon": "Bait: ",
+
+    "item.autofisher.skin_pack.empty": "Empty Net Pack",
+    "item.autofisher.skin_pack.empty.description": "Restores the default look of a net when used",
+    "item.autofisher.skin_pack.seagrass": "Seagrass Net Pack",
+    "item.autofisher.skin_pack.seagrass.description": "Beautiful green look for your netting. Quicker bait depletion",
+    "item.autofisher.skin_pack.space": "Galaxy Net Pack",
+    "item.autofisher.skin_pack.space.description": "Dark and spacey, with stars. Can rarely summon phantoms",
+    "item.autofisher.skin_pack.nether": "Nether Net Pack",
+    "item.autofisher.skin_pack.nether.description": "Made from fishing dreams. Catch fish in lava in the Nether",
+    "ui.autofisher.skin.0": "Default Look - Default",
+    "ui.autofisher.skin.1": "\"Galaxy\" - Can rarely summon phantoms",
+    "ui.autofisher.skin.2": "\"Seagrass\" - Quicker bait depletion",
+    "ui.autofisher.skin.3": "\"Nether\" - Catch fish in lava in the Nether. Unburnable",
+    
+    "subtitles.autofisher.water_splash": "Fishing Net caught a fish",
+    "subtitles.autofisher.fishing_reel": "Fishing Net starts luring fish in",
+    "advancements.autofisher.caught_in_the_nets": "Caught in the Nets",
+    "advancements.autofisher.caught_in_the_nets.description": "Construct a Fishing Net for getting food and treasure",
+    "advancements.autofisher.codbait": "Codbaited",
+    "advancements.autofisher.codbait.description": "Add bait to the net to increase your fishing output",
+    "advancements.autofisher.overfed_the_fish": "Overfed the Fish",
+    "advancements.autofisher.overfed_the_fish.description": "Reach max storable bait on a net",
+    "advancements.autofisher.magic_happens": "Magic Happens",
+    "advancements.autofisher.magic_happens.description": "Have your net catch an Enchanted Book",
+    "advancements.autofisher.skystone_and_pillar": "Skystone and Pillar",
+    "advancements.autofisher.skystone_and_pillar.description": "Feed the net some Dragon's Breath as a bait and see what happens",
+    "advancements.autofisher.quickdraw_fishing": "Quick-draw Fishing",
+    "advancements.autofisher.quickdraw_fishing.description": "Hastily destroy a Fishing Net using a Copper Axe"
 }

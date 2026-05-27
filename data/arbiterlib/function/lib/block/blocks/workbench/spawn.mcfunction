@@ -1,4 +1,4 @@
-
+title @a[distance=..7] actionbar {"text":"This feature is beta and will not work"}
 
 playsound block.wood.place block @a ~ ~0.5 ~ 1 0.8
 

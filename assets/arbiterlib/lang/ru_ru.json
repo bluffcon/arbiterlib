@@ -3,14 +3,18 @@
     "id.arbiterlib.short": "Arbiter",
     
     "ui.arbiterlib.modrinth_link": "Нажмите, чтобы открыть на Modrinth",
+    "ui.arbiterlib.github_link": "Нажмите, чтобы открыть на GitHub",
     "ui.arbiterlib.bracket.open": " └ [",
     "ui.arbiterlib.bracket.close": "]",
     "ui.arbiterlib.separator": " - ",
 
+    "ui.arbiterlib.welcome.1.0": "",
     "ui.arbiterlib.welcome.1.1": "Вы",
     "ui.arbiterlib.welcome.1.2": " свидетель перезагрузки",
+    "ui.arbiterlib.welcome.2.0": "",
     "ui.arbiterlib.welcome.2.1": "Ваша",
     "ui.arbiterlib.welcome.2.2": " игра была перезагружена",
+    "ui.arbiterlib.welcome.3.0": "",
     "ui.arbiterlib.welcome.3.1": "Вам",
     "ui.arbiterlib.welcome.3.2": " доставлено уведомление о перезагрузке",
     
@@ -18,12 +22,22 @@
     "ui.arbiterlib.config_tooltip.2": "Настройте в ",
     "ui.arbiterlib.config_tooltip.3": "/function arbiterlib:config",
     
+    "ui.arbiterlib.missing.1": "ArbiterLib не присутствует на сервере",
+    "ui.arbiterlib.missing.2": "У вас установлен набор ресурсов от ArbiterLib, но на сервере нет нужного набора данных! Большинство функций предоставленных некоторыми загруженными наборами данных полностью не будут работать и ваш мир может сломаться.",
+    "ui.arbiterlib.missing.modrinth": "[Скачать набор данных ArbiterLib на Modrinth]",
+    "ui.arbiterlib.missing.github": "[Скачать набор данных ArbiterLib на GitHub]",
+    
     "ui.arbiterlib.button": "Кнопка",
     "ui.arbiterlib.button_explanation.1": "Нажмите [",
     "ui.arbiterlib.button_explanation.2": "], чтобы выбрать. ",
     "ui.arbiterlib.button_explanation.3": "Нажмите [",
     "ui.arbiterlib.button_explanation.4": "], чтобы подтвердить.",
-
+    
+    "advancements.arbiterlib.by": " - ",
+    "advancements.arbiterlib.alternative_story": "Другая История",
+    "advancements.arbiterlib.alternative_story.description": "Что могло быть главной историей игры",
+    "advancements.arbiterlib.lets_interact": "Давайте Познакомимся",
+    "advancements.arbiterlib.lets_interact.description": "Создайте любой блок семьи Arbiter",
 
 
 
@@ -31,8 +45,10 @@
 
     "id.raptap": "Rapt and Pious",
     "id.raptap.short": "RaptaP",
+    "ui.raptap.welcome.1.0": "",
     "ui.raptap.welcome.1.1": "Вы",
     "ui.raptap.welcome.1.2": " вновь посвящаете себя!",
+    "ui.raptap.welcome.2.0": "",
     "ui.raptap.welcome.2.1": "Смотрите",
     "ui.raptap.welcome.2.2": " на проламывающий землю рассвет...",
     "ui.raptap.cross": "†",
@@ -51,7 +67,7 @@
     "item.raptap.wax": "Воск",
     "item.raptap.wax.description": "Из него есть свечи, фигуры и сургучные печати.",
     "item.raptap.candle.description": "Горит ярче в присутствии любви.",
-    "item.raptap.honeycomb.description": "Доказательство самой сила. Съедобные.",
+    "item.raptap.honeycomb.description": "Доказательство самой силы. Съедобные.",
 
     "item.raptap.holy_cross": "Святой Крест",
     "item.raptap.holy_cross.charge_1": "Святой Крест [1/4]",
@@ -73,17 +89,18 @@
     "enchantment.raptap.roaring_legend": "Ревущая Легенда",
     "enchantment.raptap.true_roaring_legend": "Та самая Ревущая Легенда",
 
+    
 
 
 
 
-
-    "id.autofisher": "Autofisher Net",
+    "id.autofisher": "Autofisher",
     "id.autofisher.short": "Autofisher",
+    "ui.autofisher.welcome.0": "",
     "ui.autofisher.welcome.1": "Вашей",
     "ui.autofisher.welcome.2": " игре попутного ветра!",
 
-    "block.autofisher.net": "Сеть авторыбалки",
+    "block.autofisher.net": "Рыболовная сеть",
     "block.autofisher.net.description": "Автоматически ловит рыбу и выбрасывает её как предмет",
     
     "ui.autofisher.net.remove_text": "Что вы хотите сделать?",
@@ -93,5 +110,33 @@
     "ui.autofisher.net.bait_how_to_add.1": "Нажмите [",
     "ui.autofisher.net.bait_how_to_add.2": "] с Морской травой в руке, чтобы добавить приманку",
     "ui.autofisher.net.break_net": "Сломать сеть",
-    "ui.autofisher.bait_colon": "Приманки: "
+    "ui.autofisher.bait_colon": "Приманки: ",
+
+    "item.autofisher.skin_pack.empty": "Пустой набор сетей",
+    "item.autofisher.skin_pack.empty.description": "Возвращает стандартный вид сети при использовании",
+    "item.autofisher.skin_pack.seagrass": "Набор сетей Травка",
+    "item.autofisher.skin_pack.seagrass.description": "Красивый зелёный вид для ваших сетей. Быстрее расходует приманку",
+    "item.autofisher.skin_pack.space": "Набор сетей Галактика",
+    "item.autofisher.skin_pack.space.description": "Звёздный, космический и тёмный. Изредка призовёт фантомов",
+    "item.autofisher.skin_pack.nether": "Набор сетей Незер",
+    "item.autofisher.skin_pack.nether.description": "Сделано из грёз о рыбе. Ловит рыбу в лаве Незера",
+    "ui.autofisher.skin.0": "Стандартный вид - Обычный",
+    "ui.autofisher.skin.1": "\"Галактика\" - Изредка призовёт фантомов",
+    "ui.autofisher.skin.2": "\"Травка\" - Быстрее расходует приманку",
+    "ui.autofisher.skin.3": "\"Незер\" - Ловит рыбу в лаве Незера. Несгораемая",
+    
+    "subtitles.autofisher.water_splash": "Рыболовная сеть поймала рыбу",
+    "subtitles.autofisher.fishing_reel": "Рыболовная сеть начинает приманивать рыбу",
+    "advancements.autofisher.caught_in_the_nets": "Сетоловня с вами",
+    "advancements.autofisher.caught_in_the_nets.description": "Соорудите рыболовную сеть для еды и сокровищ",
+    "advancements.autofisher.codbait": "Зарыбайтинг",
+    "advancements.autofisher.codbait.description": "Добавьте приманку в сети для увеличения улова",
+    "advancements.autofisher.overfed_the_fish": "Перекормили Рыб",
+    "advancements.autofisher.overfed_the_fish.description": "Заполните сеть приманкой до предела",
+    "advancements.autofisher.magic_happens": "Чудеса случаются",
+    "advancements.autofisher.magic_happens.description": "Ваша сеть поймала Чародейскую книгу",
+    "advancements.autofisher.skystone_and_pillar": "Небесный камень",
+    "advancements.autofisher.skystone_and_pillar.description": "Скормите сети немного Дыхания дракона и посмотрите на результат",
+    "advancements.autofisher.quickdraw_fishing": "Самый быстрый в диком море",
+    "advancements.autofisher.quickdraw_fishing.description": "Быстро сломайте рыболовную сеть медным топором"
 }

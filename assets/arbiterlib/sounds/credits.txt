@@ -1,0 +1,5 @@
+most of these in the sfx folder come from the bbc sound library
+
+others made by me
+
+cnvrt.bat makes all sounds in ./ folder mono

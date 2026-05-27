@@ -1,0 +1,7 @@
+{
+  "parent": "arbiterlib:item/autofisher_net",
+  "textures": {
+    "0": "arbiterlib:item/net_nether",
+    "particle": "arbiterlib:item/net_nether"
+  }
+}

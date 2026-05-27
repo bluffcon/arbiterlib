@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "durability": 0
+            }
+        }
+    },
+    "display": {
+        "title": {"translate": "advancements.arbiterlib.alternative_story"},
+        "description": [{"translate": "advancements.arbiterlib.alternative_story.description"}, {"translate": "advancements.arbiterlib.by"}, {"translate": "id.arbiterlib.short"}],
+        "icon": {"id": "apple", "components": {"item_model": "arbiterlib:alternative_story"}},
+        "show_toast": true,
+        "announce_to_chat": false,
+        "frame": "task",
+        "background": "arbiterlib:item/alternative_story_bg"
+    }
+}

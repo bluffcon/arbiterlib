@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "arbiterlib": {}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {"translate": "advancements.arbiterlib.lets_interact"},
+        "description": [{"translate": "advancements.arbiterlib.lets_interact.description"}, {"translate": "advancements.arbiterlib.by"}, {"translate": "id.arbiterlib.short"}],
+        "icon": {"id": "apple", "components": {"item_model": "minecraft:oak_log"}},
+        "show_toast": true,
+        "announce_to_chat": false,
+        "frame": "task"
+    },
+    "parent": "arbiterlib:alternative_story/root"
+}
