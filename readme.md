@@ -57,7 +57,7 @@ Lore: last line must always include the datapack namespace in blue text
 - Add block ticks to `#arbiterlib:t/block_ticks` and format each line like `execute if entity @s[tag=arbiterlib.block.workbench] run return run function arbiterlib:lib/block/blocks/workbench/tick`
 - Give your block the `arbiterlib.block.adjustable_light` tag to let Arbiter detect light changes and update your block's `brightness`
 
-### Crafting Recipes
+### Crafting Recipes (BETA & DONT USE)
 > This is done in Arbiter's **Workbench**: utility block made with 2 planks and 2 logs.
 Crafting works in 2 parts: making a fake preview item and then turning it real. For that you need 2 functions in 2 function tags: `#arbiterlib:workbench` for the recipe matching and `#arbiterlib:make_item` for creating the real item.
 
@@ -131,12 +131,8 @@ Now you're done. If you need a loot table template, you can also use the Bread P
 ```
 
 ### To-do
-- Shapeless crafting isn't possible yet
-- Shift-crafting stacks of items isn't possible yet
-- Alternative Crafting does not yet work
-- You have to constantly put down items one by one if you want to make stackable items
-- `optimized_crafting` is not yet implemented
-- The craft button is not yet implemented
+- Scrap crafting systems and implement action button based crafting
+- Plan out a future turn-based RPG pvp/pve minigame for Arbiter dependants (?)
 
 ## About Arbiter
 Arbiter could make things easier for you, but could also make them take more time depending on how you work. You're free to use it or not use it! Open an issue if you have thoughts on how to improve Arbiter or if you found an error within this code
