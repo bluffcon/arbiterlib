@@ -40,21 +40,29 @@ jobs:
           VERSION="${{ steps.extract.outputs.version }}"
           REPO_NAME="${{ steps.repo.outputs.name }}"
           
-          # Backup original pack.mcmeta
-          cp pack.mcmeta pack.mcmeta.backup
+          # Create a temporary working directory
+          mkdir -p working_dir
           
-          # Modify pack.mcmeta temporarily
-          sed -i "s/XXX/$VERSION/g" pack.mcmeta
+          # Copy all files to working directory
+          cp -r * working_dir/ 2>/dev/null || true
+          cp -r .[!.]* working_dir/ 2>/dev/null || true
           
-          # Create zip files from the modified original
+          # Modify pack.mcmeta in working directory
+          sed -i "s/XXX/$VERSION/g" working_dir/pack.mcmeta
+          
+          cd working_dir
+          
+          # Create zip files from working directory
           if [ "$REPO_NAME" = "arbiterlib" ]; then
             echo "Repository is arbiterlib - creating two zip files"
             
             # Create full zip (with data folder)
-            zip -r "${REPO_NAME}_${VERSION}.zip" . -x "*.git*" "temp-build/*" "pack.mcmeta.backup"
+            zip -r "../${REPO_NAME}_${VERSION}.zip" . -x "*.git*"
             
             # Create zip without data folder (prefixed with 'r')
-            zip -r "r${REPO_NAME}_${VERSION}.zip" . -x "data/*" "*.git*" "temp-build/*" "pack.mcmeta.backup"
+            # Remove the data folder first
+            rm -rf data
+            zip -r "../r${REPO_NAME}_${VERSION}.zip" . -x "*.git*"
             
             echo "Created: ${REPO_NAME}_${VERSION}.zip"
             echo "Created: r${REPO_NAME}_${VERSION}.zip"
@@ -62,15 +70,17 @@ jobs:
             echo "Repository is $REPO_NAME - creating single zip file"
             
             # Create single zip with data folder
-            zip -r "${REPO_NAME}_${VERSION}.zip" . -x "*.git*" "temp-build/*" "pack.mcmeta.backup"
+            zip -r "../${REPO_NAME}_${VERSION}.zip" . -x "*.git*"
             
             echo "Created: ${REPO_NAME}_${VERSION}.zip"
           fi
           
-          # Restore original pack.mcmeta
-          mv pack.mcmeta.backup pack.mcmeta
+          cd ..
           
-          echo "Original pack.mcmeta restored"
+          # Clean up
+          rm -rf working_dir
+          
+          echo "Original files untouched, zips created successfully"
       
       - name: List created zip files
         run: |
