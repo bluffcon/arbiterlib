@@ -35,31 +35,26 @@ jobs:
           echo "name=$REPO_NAME" >> $GITHUB_OUTPUT
           echo "Repository name: $REPO_NAME"
       
-      - name: Create modified pack.mcmeta and zip files
+      - name: Create zip files with modified pack.mcmeta
         run: |
           VERSION="${{ steps.extract.outputs.version }}"
           REPO_NAME="${{ steps.repo.outputs.name }}"
           
-          # Create temporary directory with all files
-          mkdir temp-build
-          cp -r . temp-build/
+          # Backup original pack.mcmeta
+          cp pack.mcmeta pack.mcmeta.backup
           
-          # Modify pack.mcmeta in temp directory (replace XXX with version)
-          sed -i "s/XXX/$VERSION/g" temp-build/pack.mcmeta
+          # Modify pack.mcmeta temporarily
+          sed -i "s/XXX/$VERSION/g" pack.mcmeta
           
-          # Check if repository is 'arbiterlib'
+          # Create zip files from the modified original
           if [ "$REPO_NAME" = "arbiterlib" ]; then
             echo "Repository is arbiterlib - creating two zip files"
             
             # Create full zip (with data folder)
-            cd temp-build
-            zip -r "../${REPO_NAME}_${VERSION}.zip" . -x "*.git*"
-            cd ..
+            zip -r "${REPO_NAME}_${VERSION}.zip" . -x "*.git*" "temp-build/*" "pack.mcmeta.backup"
             
             # Create zip without data folder (prefixed with 'r')
-            cd temp-build
-            zip -r "../r${REPO_NAME}_${VERSION}.zip" . -x "data/*" "*.git*"
-            cd ..
+            zip -r "r${REPO_NAME}_${VERSION}.zip" . -x "data/*" "*.git*" "temp-build/*" "pack.mcmeta.backup"
             
             echo "Created: ${REPO_NAME}_${VERSION}.zip"
             echo "Created: r${REPO_NAME}_${VERSION}.zip"
@@ -67,15 +62,15 @@ jobs:
             echo "Repository is $REPO_NAME - creating single zip file"
             
             # Create single zip with data folder
-            cd temp-build
-            zip -r "../${REPO_NAME}_${VERSION}.zip" . -x "*.git*"
-            cd ..
+            zip -r "${REPO_NAME}_${VERSION}.zip" . -x "*.git*" "temp-build/*" "pack.mcmeta.backup"
             
             echo "Created: ${REPO_NAME}_${VERSION}.zip"
           fi
           
-          # Clean up
-          rm -rf temp-build
+          # Restore original pack.mcmeta
+          mv pack.mcmeta.backup pack.mcmeta
+          
+          echo "Original pack.mcmeta restored"
       
       - name: List created zip files
         run: |
