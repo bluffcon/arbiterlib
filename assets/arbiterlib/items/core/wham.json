@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "arbiterlib:item/core/wham"
+  },
+  "oversized_in_gui": true
+}

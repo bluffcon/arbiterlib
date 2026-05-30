@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "arbiterlib:item/core/item_mode_single"
+  },
+  "oversized_in_gui": true
+}

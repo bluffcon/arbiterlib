@@ -6,4 +6,5 @@ setblock ~ ~ ~ barrel[facing=up]{CustomName:{translate:"block.arbiterlib.workben
 tag @s add arbiterlib.block.workbench
 
 scoreboard players set @s arbiterlib.block.state 1
+scoreboard players set @s arbiterlib.block.state.2 1
 function arbiterlib:lib/block/adjust_light

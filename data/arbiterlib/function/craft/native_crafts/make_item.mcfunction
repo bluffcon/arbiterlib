@@ -1,1 +1,0 @@
-$execute if items entity @s $(slot) *[custom_data~{arbiterlib:{id:"bread_pickaxe"}}] run function arbiterlib:craft/workbench/craft/make_item {namespace:"arbiterlib",item:"bread_pickaxe", loottable:"bread_pickaxe",rarity:"common",item:"stone_pickaxe"}

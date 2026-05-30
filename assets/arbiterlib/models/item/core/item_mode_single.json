@@ -1,0 +1,6 @@
+{
+  "parent": "arbiterlib:item/slot",
+  "textures": {
+    "layer0": "arbiterlib:item/core/item_mode_single"
+  }
+}

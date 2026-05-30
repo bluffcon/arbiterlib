@@ -1,0 +1,6 @@
+{
+  "parent": "arbiterlib:item/slot_ring",
+    "textures": {
+      "layer0": "arbiterlib:item/slot_ring_preview"
+    }
+}

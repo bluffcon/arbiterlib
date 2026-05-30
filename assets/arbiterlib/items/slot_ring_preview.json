@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "arbiterlib:item/slot_ring_preview"
+  },
+  "oversized_in_gui": true
+}

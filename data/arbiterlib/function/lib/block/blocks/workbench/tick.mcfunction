@@ -8,5 +8,6 @@ scoreboard players set @s arbiterlib.block.errors 0
 execute unless block ~ ~1 ~ #air positioned ~ ~1.5 ~ run function arbiterlib:lib/block/blocks/workbench/deny
 execute unless block ~ ~2 ~ #air positioned ~ ~2.5 ~ run function arbiterlib:lib/block/blocks/workbench/deny
 
-execute if score @s arbiterlib.block.active matches 1 run function arbiterlib:lib/block/blocks/workbench/work/active
+execute if score @s arbiterlib.block.active matches 1 run return run function arbiterlib:lib/block/blocks/workbench/work/active
 
+function arbiterlib:lib/block/blocks/workbench/work/clear_null

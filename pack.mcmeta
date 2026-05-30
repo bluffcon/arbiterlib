@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": [{"text":"Arbiter", "color":"#facf7f","underlined": true}, {"text":": A Datapack Library", "color":"#e7e3a4","underlined": false}, {"text":" XXX","color": "#57575c"}, {"text":"|","color":"#57575c","underlined": false},{"text":" by bluffcon", "color":"#cdcdd1","underlined": false}],
+        "description": [{"fallback":"Arbiter", "color":"#facf7f","underlined": true, "translate": "mcmeta.arbiterlib.1"}, {"fallback":": A Datapack Library", "color":"#e7e3a4","underlined": false, "translate": "mcmeta.arbiterlib.2"}, {"text":" XXX","color": "#57575c","underlined": false}, {"text":" | ","color":"#57575c","underlined": false},{"fallback":"by bluffcon", "color":"#cdcdd1","underlined": false, "translate": "mcmeta.arbiterlib.3"}],
         "min_format": [101,1],
         "max_format": [101,1]
     },

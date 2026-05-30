@@ -19,7 +19,7 @@
                                         }
                                     }
                                 },
-                        "item": {"id": "crafting_table","components": {"item_model": "arbiterlib:workbench"}},
+                        "item": {"id": "crafting_table","components": {"item_model": "arbiterlib:core/workbench"}},
                         "brightness": {
                             "block": 15, "sky": 0
                         },
@@ -27,7 +27,7 @@
                         "Rotation": [0,0],
                         "glow_color_override": 16712194
                         },
-                    "item_model": "arbiterlib:workbench",
+                    "item_model": "arbiterlib:core/workbench",
                     "item_name": {"translate": "block.arbiterlib.workbench","fallback": "Workbench"},
                     "custom_data": {
                         "arbiterlib": {"namespace":"arbiterlib","id":"workbench"}

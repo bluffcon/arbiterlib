@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arbiterlib:item/autofisher/net/pack_net"
+  }
+}

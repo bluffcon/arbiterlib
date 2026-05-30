@@ -1,0 +1,7 @@
+{
+  "parent": "arbiterlib:item/autofisher/net/net",
+  "textures": {
+    "0": "arbiterlib:item/autofisher/net/net_pride",
+    "particle": "arbiterlib:item/autofisher/net/net_pride"
+  }
+}

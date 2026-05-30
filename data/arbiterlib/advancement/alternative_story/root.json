@@ -10,10 +10,10 @@
     "display": {
         "title": {"translate": "advancements.arbiterlib.alternative_story"},
         "description": [{"translate": "advancements.arbiterlib.alternative_story.description"}, {"translate": "advancements.arbiterlib.by"}, {"translate": "id.arbiterlib.short"}],
-        "icon": {"id": "apple", "components": {"item_model": "arbiterlib:alternative_story"}},
+        "icon": {"id": "apple", "components": {"item_model": "arbiterlib:core/alternative_story"}},
         "show_toast": true,
         "announce_to_chat": false,
         "frame": "task",
-        "background": "arbiterlib:item/alternative_story_bg"
+        "background": "arbiterlib:item/core/alternative_story_bg"
     }
 }

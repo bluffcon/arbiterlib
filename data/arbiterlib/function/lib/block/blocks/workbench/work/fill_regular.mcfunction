@@ -3,7 +3,6 @@ function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:0}
 function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:4}
 function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:5}
 function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:6}
-function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:7}
 function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:8}
 
 execute unless items block ~ ~ ~ container.9 * run item replace block ~ ~ ~ container.9 with knowledge_book[rarity="common",tooltip_display={hide_tooltip:true},item_model="arbiterlib:recipe_book",custom_data={arbiterlib:{item:"null"}}]
@@ -14,8 +13,6 @@ execute unless items block ~ ~ ~ container.14 * run item replace block ~ ~ ~ con
 function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:15}
 function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:17}
 
-function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:22}
-function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:23}
 function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:24}
 function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:25}
 

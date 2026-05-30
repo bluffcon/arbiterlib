@@ -1,0 +1,7 @@
+execute if score @s arbiterlib.block.state.2 matches 1 unless items block ~ ~ ~ container.23 * run return run item replace block ~ ~ ~ container.23 with knowledge_book[custom_data={arbiterlib:{item:"craft_button"}},item_model="arbiterlib:core/wham",rarity=common,item_name={translate:"ui.arbiterlib.crafting.button_single",bold:true}, lore=[{translate:"ui.arbiterlib.crafting.button_single.description",italic:false,color:gray}]]
+
+
+execute if score @s arbiterlib.block.state.2 matches 2 unless items block ~ ~ ~ container.23 * run return run item replace block ~ ~ ~ container.23 with knowledge_book[custom_data={arbiterlib:{item:"craft_button"}},item_model="arbiterlib:core/wham",rarity=common,item_name={translate:"ui.arbiterlib.crafting.button_stack",bold:true}, lore=[{translate:"ui.arbiterlib.crafting.button_stack.description",italic:false,color:gray}]]
+
+
+execute if score @s arbiterlib.block.state.2 matches 3 unless items block ~ ~ ~ container.23 * run return run item replace block ~ ~ ~ container.23 with knowledge_book[custom_data={arbiterlib:{item:"craft_button"}},item_model="arbiterlib:core/wham",rarity=common,item_name={translate:"ui.arbiterlib.crafting.button_special",bold:true}, lore=[{translate:"ui.arbiterlib.crafting.button_special.description",italic:false,color:gray}]]

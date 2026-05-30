@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/oak_planks",
+    "east": "arbiterlib:block/core/workbench_side",
+    "north": "arbiterlib:block/core/workbench_front",
+    "particle": "arbiterlib:block/core/workbench_front",
+    "south": "arbiterlib:block/core/workbench_side",
+    "up": "arbiterlib:block/core/workbench_top",
+    "west": "arbiterlib:block/core/workbench_front"
+  }
+}
