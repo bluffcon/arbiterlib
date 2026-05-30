@@ -3,5 +3,8 @@
         "description": [{"text":"Arbiter", "color":"#facf7f","underlined": true}, {"text":": A Datapack Library", "color":"#e7e3a4","underlined": false}, {"text":" XXX","color": "#57575c"}, {"text":"|","color":"#57575c","underlined": false},{"text":" by bluffcon", "color":"#cdcdd1","underlined": false}],
         "min_format": [101,1],
         "max_format": [101,1]
+    },
+    "info": {
+        "modrinth_project_id": "aHzaVmyo"
     }
 }
