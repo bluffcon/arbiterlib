@@ -36,3 +36,4 @@ execute unless score .reload_notification arbiterlib.settings matches -1 as @a u
 
 scoreboard players add .reloads arbiterlib.timer 1
 scoreboard objectives remove arbiterlib
+
