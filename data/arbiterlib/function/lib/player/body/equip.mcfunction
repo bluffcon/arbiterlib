@@ -1,0 +1,2 @@
+item replace entity @s armor.body with iron_horse_armor[custom_data={arbiterlib:{"id":"body"}},attribute_modifiers=[{amount:0,type:armor,id:"minecraft:armor.body","slot":body,operation:"add_value"}]]
+stopsound @a * entity.horse.armor

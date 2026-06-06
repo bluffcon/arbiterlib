@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "arbiterlib:item/etcetera/interdimensional_railgun_off"
+    },
+    "oversized_in_gui": true
+}

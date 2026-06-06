@@ -73,5 +73,131 @@
             "arbiterlib:sfx/fishing_reel4"
         ],
         "subtitle": "subtitles.autofisher.fishing_reel"
+    },
+
+    "sfx.etcetera.whoosh_assist": {
+        "sounds": [
+            "arbiterlib:sfx/whoosh_assist"
+        ],
+        "subtitle": "subtitles.etcetera.assist"
+    },
+    "sfx.etcetera.rift_radio": {
+        "sounds": [
+            "arbiterlib:sfx/rift_radio"
+        ],
+        "subtitle": "subtitles.etcetera.rift_radio"
+    },
+    "sfx.etcetera.radio_headphones.equip": {
+        "sounds": [
+            "arbiterlib:sfx/radio_headphones"
+        ],
+        "subtitle": "subtitles.etcetera.radio_headphones.equip"
+    },
+    "sfx.etcetera.radio_headphones.pickup": {
+        "sounds": [
+            "arbiterlib:sfx/radio_pickup"
+        ],
+        "subtitle": "subtitles.etcetera.radio_headphones.pickup"
+    },
+    "sfx.etcetera.interdimensional_railgun.shoot": {
+        "sounds": [
+            "arbiterlib:sfx/etcetera/railgun_shoot"
+        ],
+        "subtitle": "subtitles.etcetera.interdimensional_railgun.shoot"
+    },
+    "sfx.etcetera.interdimensional_railgun.charge": {
+        "sounds": [
+            "arbiterlib:sfx/etcetera/railgun_charge1",
+            "arbiterlib:sfx/etcetera/railgun_charge2"
+        ],
+        "subtitle": "subtitles.etcetera.interdimensional_railgun.charge"
+    },
+    "sfx.etcetera.interdimensional_railgun.charged": {
+        "sounds": [
+            "arbiterlib:sfx/etcetera/railgun_charged"
+        ],
+        "subtitle": "subtitles.etcetera.interdimensional_railgun.charged"
+    },
+    "sfx.etcetera.communication_antenna.hum": {
+        "sounds": [
+            "arbiterlib:sfx/etcetera/antenna_hum"
+        ],
+        "subtitle": "subtitles.etcetera.communication_antenna.hum"
+    },
+    "sfx.etcetera.communication_antenna.built": {
+        "sounds": [
+            "arbiterlib:sfx/etcetera/antenna_built"
+        ],
+        "subtitle": "subtitles.etcetera.communication_antenna.built"
+    },
+
+
+
+    "last_crucible.sfx.baron_uzura.chirp": {
+        "sounds": [
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/chirp",
+                "pitch": 1
+            },
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/chirp",
+                "pitch": 0.8
+            }
+        ],
+        "subtitle": "last_crucible.subtitle.baron_uzura.chirp"
+    },
+    "last_crucible.sfx.baron_uzura.attack": {
+        "sounds": [
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/quail_mad",
+                "pitch": 1
+            },
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/quail_mad",
+                "pitch": 0.9
+            },
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/quail_mad2",
+                "pitch": 1
+            },
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/quail_mad2",
+                "pitch": 0.9
+            }
+        ],
+        "subtitle": "last_crucible.subtitle.baron_uzura.attack"
+    },
+    "last_crucible.sfx.baron_uzura.damaged": {
+        "sounds": [
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/quail_alt_short",
+                "pitch": 1,
+                "volume": 2
+            },
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/quail_alt_short",
+                "pitch": 0.8,
+                "volume": 2
+            },
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/quail_alt_short",
+                "pitch": 0.7,
+                "volume": 2
+            }
+        ],
+        "subtitle": "last_crucible.subtitle.baron_uzura.damaged"
+    },
+    "last_crucible.sfx.baron_uzura.counter": {
+        "sounds": [
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/quail_alt",
+                "pitch": 1
+            },
+            {
+                "name": "arbiterlib:last_crucible/baron_uzura/quail_alt",
+                "pitch": 0.9
+            }
+        ],
+        "subtitle": "last_crucible.subtitle.baron_uzura.counter"
     }
 }

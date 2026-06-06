@@ -1,5 +1,18 @@
-most of these in the sfx folder come from the bbc sound library
+some of these in the sfx folder come from the bbc sound library
+others made by me. others attributed below.
 
-others made by me
+- ogg.bat makes all sounds in ./ folder mono ogg
 
-cnvrt.bat makes all sounds in ./ folder mono
+
+
+OTHER CREDITS!!! sounds are altered so this is a list of free use samples used mostly.
+
+Fowl - Japanese Quail; Trill, Take 2 by TheKingOfGeeks360 -- https://freesound.org/s/842311/ -- License: Creative Commons 0
+Fowl - Japanese Quail; Trill by TheKingOfGeeks360 -- https://freesound.org/s/842310/ -- License: Creative Commons 0
+Fowl - Japanese Quail; Three Trills, Various Perspectives by TheKingOfGeeks360 -- https://freesound.org/s/842309/ -- License: Creative Commons 0
+starling bird short voice_01.mp3 by Ragu21 -- https://freesound.org/s/342163/ -- License: Creative Commons 0
+Jet_Whoosh.WAV by Benboncan -- https://freesound.org/s/167563/ -- License: Attribution 4.0
+microphone adusting sound.mp3 by floating.ace -- https://freesound.org/s/381791/ -- License: Creative Commons 0
+RAI: Finch Bird Radio, type 3 (Uccellino della Radio, Uccellino della RAI, Tipo 3) - by Tormy Van Cool by Tormy -- https://freesound.org/s/737893/ -- License: Attribution 4.0
+electric hum 1 by FOSSarts -- https://freesound.org/s/740085/ -- License: Creative Commons 0
+Sacred Rune Lock – Holy Magic Seal Activation by Coghezzi -- https://freesound.org/s/853656/ -- License: Attribution 4.0
