@@ -130,6 +130,15 @@
         ],
         "subtitle": "subtitles.etcetera.communication_antenna.built"
     },
+    "ambient.etcetera.likeness": {
+        "sounds": [
+            "arbiterlib:ambient/etcetera/likeness1",
+            "arbiterlib:ambient/etcetera/likeness2",
+            "arbiterlib:ambient/etcetera/likeness3",
+            "arbiterlib:ambient/etcetera/likeness4",
+            "arbiterlib:ambient/etcetera/likeness5"
+        ]
+    },
 
 
 

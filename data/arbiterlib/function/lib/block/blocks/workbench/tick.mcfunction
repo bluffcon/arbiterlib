@@ -5,9 +5,15 @@ execute if block ~ ~ ~ barrel[open=false] run scoreboard players set @s arbiterl
 execute if block ~ ~ ~ barrel[open=true] run scoreboard players set @s arbiterlib.block.active 1
 
 scoreboard players set @s arbiterlib.block.errors 0
-execute unless block ~ ~1 ~ #air positioned ~ ~1.5 ~ run function arbiterlib:lib/block/blocks/workbench/deny
+execute unless block ~ ~1 ~ #air unless block ~ ~1 ~ crafter positioned ~ ~1.5 ~ run function arbiterlib:lib/block/blocks/workbench/deny
 execute unless block ~ ~2 ~ #air positioned ~ ~2.5 ~ run function arbiterlib:lib/block/blocks/workbench/deny
+execute if entity @s[tag=arbiterlib.block.adjustable_light] if block ~ ~1 ~ crafter run function arbiterlib:lib/block/blocks/workbench/light/crafter_above
+execute if entity @s[tag=!arbiterlib.block.adjustable_light] unless block ~ ~1 ~ crafter run function arbiterlib:lib/block/blocks/workbench/light/enable
+execute if entity @s[tag=arbiterlib.block.workbench.vanilla] run function arbiterlib:lib/block/blocks/workbench/light/particle
+
+
 
 execute if score @s arbiterlib.block.active matches 1 run return run function arbiterlib:lib/block/blocks/workbench/work/active
 
 function arbiterlib:lib/block/blocks/workbench/work/clear_null
+function arbiterlib:lib/block/blocks/workbench/work/clear_others

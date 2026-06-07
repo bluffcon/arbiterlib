@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "arbiterlib:workbench1"
+        ]
+    }
+}
