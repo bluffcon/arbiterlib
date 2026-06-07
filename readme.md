@@ -14,7 +14,7 @@ Star this repo!! ⭐⭐⭐⭐⭐⭐
 - Use Arbiter's entity tags, like excluding `#arbiterlib:inanimate` to search for living entities
 - Use Arbiter's `arbiterlib:player` score id system, from which you can access player data by using a macro on `arbiterlib:player_data` storage
 - Load your own effects in `#arbiterlib:welcomes` and say hi to private worlds in `#arbiterlib:singleplayer_first_time_playing`
-- Add your message to the pool of random reload messages for server admins\
+- Add your message to the pool of random reload messages for server admins
 
 > For the rest of info, please visit the `info.md` file
 
@@ -40,22 +40,13 @@ Arbiter has some presets for shapes made out of particles. You need to use a mac
 - Particle shapes are EXTREMELY laggy, especially the more complex the math gets. They are meant to be played as one-shot effects rather than a constant trail. A single command block running the sphere (radius 2) command every tick can increase the servers MSPT by 8 (a LOT!!!) since its running 20000 commands every second
 - The circle shape is rotated with the player and uses `^ ^ ^` coordinates, which is how the sphere shape is generated. You can make sphere-like shapes yourself alongside other curves just by using the circle tool
 
-# Requirements in implementation
-**For items:**
+### Buttons
+Interaction entities that have a tag and some specific `data` that lets them run functions on press. Quick utility that lets you skip the boring part of interactions!
 
-Custom Data: must include
-- `"arbiterlib": {"namespace":"arbiterlib","id":"workbench"}`
+Buttons should have the `arbiterlib.button` tag. Entity data should be formatted like:
+> `{arbiterlib:{entity:"button",select_function:"AAAAA",tap_function:"BBBBB"}}`
 
-Lore: last line must always include the datapack namespace in blue text
-- `{"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": false}`
-
-**For blocks:**
-- Blocks are Item Display entities with specific tags and entity data
-- Must include the `arbiterlib.block` entity tag
-- Data: `{"arbiterlib":{"block":{"namespace":"arbiterlib","function":"arbiterlib:lib/block/blocks/workbench/spawn","drop_loottable": "arbiterlib:blocks/workbench"}}}`
-- When breaking, drop by using `function arbiterlib:lib/block/drop with entity @s data.arbiterlib.block` before killing @s.
-- Add block ticks to `#arbiterlib:t/block_ticks` and format each line like `execute if entity @s[tag=arbiterlib.block.workbench] run return run function arbiterlib:lib/block/blocks/workbench/tick`
-- Give your block the `arbiterlib.block.adjustable_light` tag to let Arbiter detect light changes and update your block's `brightness`
+Select function is right click (use). Tap function is left click (hit).
 
 ### Crafting Recipes (BETA)
 > This is done in Arbiter's **Workbench**: a utility block made with 2 planks and 2 logs.
@@ -94,6 +85,26 @@ That's all. You can also skip the macro function and do your own thing! You can 
 - `#arbiterlib:workbench_craft` will run `arbiterlib:craft/workbench/craft/button/make`
 
 Please make sure both are present! If you have a separate preview and craft for this item please don't run the macro!
+
+
+
+# Requirements in implementation
+**For items:**
+
+Custom Data: must include
+- `"arbiterlib": {"namespace":"arbiterlib","id":"workbench"}`
+
+Lore: last line must always include the datapack namespace in blue text
+- `{"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": false}`
+
+**For blocks:**
+- Blocks are Item Display entities with specific tags and entity data
+- Must include the `arbiterlib.block` entity tag
+- Data: `{"arbiterlib":{"block":{"namespace":"arbiterlib","function":"arbiterlib:lib/block/blocks/workbench/spawn","drop_loottable": "arbiterlib:blocks/workbench"}}}`
+- When breaking, drop by using `function arbiterlib:lib/block/drop with entity @s data.arbiterlib.block` before killing @s.
+- Add block ticks to `#arbiterlib:t/block_ticks` and format each line like `execute if entity @s[tag=arbiterlib.block.workbench] run return run function arbiterlib:lib/block/blocks/workbench/tick`
+- Give your block the `arbiterlib.block.adjustable_light` tag to let Arbiter detect light changes and update your block's `brightness`
+
 
 
 ### To-do
