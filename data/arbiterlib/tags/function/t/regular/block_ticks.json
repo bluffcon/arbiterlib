@@ -1,3 +1,5 @@
 {
-    "values": []
+    "values": [
+        "#arbiterlib:t/block_ticks"
+    ]
 }
