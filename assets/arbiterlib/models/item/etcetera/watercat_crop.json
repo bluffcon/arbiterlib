@@ -1,0 +1,6 @@
+{
+	"parent": "block/cross",
+	"textures": {
+		"cross": "arbiterlib:item/etcetera/watercat_apple"
+	}
+}

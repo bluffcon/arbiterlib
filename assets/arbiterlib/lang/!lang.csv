@@ -152,6 +152,9 @@
 "item.autofisher.skin_pack.trans","Trans Net Pack","Набор сетей Транс"
 "item.autofisher.skin_pack.trans.description","White, pink, and blue. Strive to move forward!","Белый, розовый и голубой. Двигайтесь вперёд!"
 "ui.autofisher.skin.102","Trans - Reduces its cooldown by 2%% for each net nearby","Транс - Уменьшает кулдаун на 2%% за каждую сеть рядом"
+"ui.autofisher.skin.102.condition","- Advancement 'Skystone and Pillar' (unmet)"
+"ui.autofisher.notification.pride_reward","You're playing with the Pride Month version of this datapack! Here are your rewards: [Pride Net Pack] and [Trans Net Pack]"
+
 "subtitles.autofisher.water_splash","Fishing Net caught a fish","Рыболовная сеть поймала рыбу"
 "subtitles.autofisher.fishing_reel","Fishing Net starts luring fish in","Рыболовная сеть начинает приманивать рыбу"
 "advancements.autofisher.caught_in_the_nets","Caught in the Nets","Сетоловня с вами"
@@ -208,4 +211,8 @@
 "item.etcetera.north_compass","North Compass","Северный Компас"
 "item.etcetera.north_compass.description","A compass that points north, the top part of a map","Компас, указывающий на север, верхнюю часть карты"
 "item.etcetera.north_compass.points","This compass works in ","Этот компас работает в "
-"item.etcetera.north_compass.unsupported","This dimension is unsupported by this compass","Это измерение не поддерживается этим компасом"
+"item.etcetera.north_compass.unsupported","This dimension is unsupported by this compass","Это измерение не поддерживается этим компасом",
+
+"block.minecraft.bed.gulf_etcetera","The Gulf doesn't know what this is."
+"item.etcetera.watercat_apple","Watercat Apple"
+"item.etcetera.watercat_apple.description","Makes you breathe water. Yim yum."

@@ -144,6 +144,8 @@
 	"item.autofisher.skin_pack.trans": "Trans Net Pack",
 	"item.autofisher.skin_pack.trans.description": "White, pink, and blue. Strive to move forward!",
 	"ui.autofisher.skin.102": "Trans - Reduces its cooldown by 2%% for each net nearby",
+	"ui.autofisher.skin.102.condition": "- Advancement 'Skystone and Pillar' (unmet)",
+	"ui.autofisher.notification.pride_reward": "You're playing with the Pride Month version of this datapack! Here are your rewards: [Pride Net Pack] and [Trans Net Pack]",
 	"subtitles.autofisher.water_splash": "Fishing Net caught a fish",
 	"subtitles.autofisher.fishing_reel": "Fishing Net starts luring fish in",
 	"advancements.autofisher.caught_in_the_nets": "Caught in the Nets",
@@ -189,5 +191,8 @@
 	"item.etcetera.north_compass": "North Compass",
 	"item.etcetera.north_compass.description": "A compass that points north, the top part of a map",
 	"item.etcetera.north_compass.points": "This compass works in ",
-	"item.etcetera.north_compass.unsupported": "This dimension is unsupported by this compass"
+	"item.etcetera.north_compass.unsupported": "This dimension is unsupported by this compass",
+	"block.minecraft.bed.gulf_etcetera": "The Gulf doesn't know what this is.",
+	"item.etcetera.watercat_apple": "Watercat Apple",
+	"item.etcetera.watercat_apple.description": "Makes you breathe water. Yim yum."
 }

@@ -144,6 +144,8 @@
 	"item.autofisher.skin_pack.trans": "Набор сетей Транс",
 	"item.autofisher.skin_pack.trans.description": "Белый, розовый и голубой. Двигайтесь вперёд!",
 	"ui.autofisher.skin.102": "Транс - Уменьшает кулдаун на 2%% за каждую сеть рядом",
+	"ui.autofisher.skin.102.condition": "",
+	"ui.autofisher.notification.pride_reward": "",
 	"subtitles.autofisher.water_splash": "Рыболовная сеть поймала рыбу",
 	"subtitles.autofisher.fishing_reel": "Рыболовная сеть начинает приманивать рыбу",
 	"advancements.autofisher.caught_in_the_nets": "Сетоловня с вами",
@@ -189,5 +191,8 @@
 	"item.etcetera.north_compass": "Северный Компас",
 	"item.etcetera.north_compass.description": "Компас, указывающий на север, верхнюю часть карты",
 	"item.etcetera.north_compass.points": "Этот компас работает в ",
-	"item.etcetera.north_compass.unsupported": "Это измерение не поддерживается этим компасом"
+	"item.etcetera.north_compass.unsupported": "Это измерение не поддерживается этим компасом",
+	"block.minecraft.bed.gulf_etcetera": "",
+	"item.etcetera.watercat_apple": "",
+	"item.etcetera.watercat_apple.description": ""
 }
