@@ -1,0 +1,29 @@
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.25 ~0.25 ~0.25 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.50 ~0.25 ~0.25 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.75 ~0.25 ~0.25 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.25 ~0.50 ~0.25 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.50 ~0.50 ~0.25 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.75 ~0.50 ~0.25 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.25 ~0.75 ~0.25 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.50 ~0.75 ~0.25 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.75 ~0.75 ~0.25 0 0 0 0.05 1 force @a
+
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.25 ~0.25 ~0.50 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.50 ~0.25 ~0.50 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.75 ~0.25 ~0.50 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.25 ~0.50 ~0.50 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.50 ~0.50 ~0.50 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.75 ~0.50 ~0.50 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.25 ~0.75 ~0.50 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.50 ~0.75 ~0.50 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.75 ~0.75 ~0.50 0 0 0 0.05 1 force @a
+
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.25 ~0.25 ~0.75 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.50 ~0.25 ~0.75 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.75 ~0.25 ~0.75 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.25 ~0.50 ~0.75 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.50 ~0.50 ~0.75 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.75 ~0.50 ~0.75 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.25 ~0.75 ~0.75 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.50 ~0.75 ~0.75 0 0 0 0.05 1 force @a
+$execute align xyz run particle item{item:{id:apple,components:{item_model:"$(item_model)"}}} ~0.75 ~0.75 ~0.75 0 0 0 0.05 1 force @a
