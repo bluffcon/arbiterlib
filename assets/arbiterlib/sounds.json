@@ -139,6 +139,32 @@
             "arbiterlib:ambient/etcetera/likeness5"
         ]
     },
+    "ambient.etcetera.amethyst_exposure_chamber.hum": {
+        "sounds": [
+            "arbiterlib:ambient/etcetera/exposure_chamber_hum_long"
+        ]
+    },
+    "ambient.etcetera.amethyst_exposure_chamber.short": {
+        "sounds": [
+            "arbiterlib:ambient/etcetera/exposure_chamber_hum"
+        ]
+    },
+    "sfx.etcetera.sneak_sensor.click": {
+        "sounds": [
+            "arbiterlib:sfx/etcetera/sneak_sensor_click"
+        ]
+    },
+    "sfx.etcetera.salt_shaker": {
+        "sounds": [
+            "arbiterlib:sfx/etcetera/salt_shaker"
+        ]
+    },
+    "sfx.etcetera.elevator": {
+        "sounds": [
+            "arbiterlib:sfx/etcetera/elevator"
+        ],
+        "subtitle": "subtitles.etcetera.elevator"
+    },
 
 
 
@@ -208,5 +234,26 @@
             }
         ],
         "subtitle": "last_crucible.subtitle.baron_uzura.counter"
+    },
+    "sfx.leafblower.done": {
+        "sounds": [
+            {
+                "name": "arbiterlib:sfx/small/leafblower/done"
+            }
+        ]
+    },
+    "sfx.leafblower.pick": {
+        "sounds": [
+            {
+                "name": "arbiterlib:sfx/small/leafblower/pick"
+            }
+        ]
+    },
+    "sfx.leafblower.work": {
+        "sounds": [
+            {
+                "name": "arbiterlib:sfx/small/leafblower/work"
+            }
+        ]
     }
 }

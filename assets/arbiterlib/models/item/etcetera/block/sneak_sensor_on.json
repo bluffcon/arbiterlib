@@ -1,0 +1,11 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"up": "arbiterlib:item/etcetera/block/sneak_sensor_up_on",
+		"down": "arbiterlib:item/etcetera/block/sneak_sensor_up_on",
+		"north": "arbiterlib:item/etcetera/block/sneak_sensor_side_on",
+		"south": "arbiterlib:item/etcetera/block/sneak_sensor_side_on",
+		"west": "arbiterlib:item/etcetera/block/sneak_sensor_side_on",
+		"east": "arbiterlib:item/etcetera/block/sneak_sensor_side_on"
+	}
+}

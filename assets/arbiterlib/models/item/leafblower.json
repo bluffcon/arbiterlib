@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arbiterlib:item/leafblower_thanks_openclipart_dot_org"
+  }
+}

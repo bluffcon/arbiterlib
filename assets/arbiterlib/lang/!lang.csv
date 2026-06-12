@@ -39,7 +39,7 @@
 "advancements.arbiterlib.alternative_story","Alternative Story","Другая История"
 "advancements.arbiterlib.alternative_story.description","What could've been the heart and story of the game","Что могло быть главной историей игры"
 "advancements.arbiterlib.lets_interact","Let's Interact","Давайте Познакомимся"
-"advancements.arbiterlib.lets_interact.description","Create any Arbiter block","Создайте любой блок семьи Arbiter"
+"advancements.arbiterlib.lets_interact.description","Get any ArbiterLib item","Получите любой предмет из Arbiter"
 "ui.arbiterlib.preview_item","(This is a preview of what you'll make)","(Это то, что вы сделаете)"
 "ui.arbiterlib.crafting.button_single","WHAM! x1","ХРЯСЬ! x1"
 "ui.arbiterlib.crafting.button_single.description","Craft x1 item","Скрафтить x1 предмет"
@@ -189,6 +189,21 @@
 "dimension.minecraft.the_nether","The Nether","Незер"
 "dimension.minecraft.the_end","The End","Энд"
 
+"item.etcetera.essence.dimensional","Dimensional Essence"
+"item.etcetera.essence.dimensional.description","See and feel"
+"item.etcetera.essence.likeness","Likeness Essence"
+"item.etcetera.essence.likeness.description","We're alike, in a sense"
+"item.etcetera.essence.gulf","Gulf Essence"
+"item.etcetera.essence.gulf.description","The Gulf remembers visitors"
+
+"item.etcetera.power.dimensional","Dimensional Power"
+"item.etcetera.power.dimensional.description","Touch and destroy"
+"item.etcetera.power.likeness","Likeness Power"
+"item.etcetera.power.likeness.description","We're closer when we're alike"
+"item.etcetera.power.gulf","Gulf Power"
+"item.etcetera.power.gulf.description","The Gulf is kind to visitors"
+
+
 "subtitles.etcetera.assist","Assisted damage","Ассист-урон"
 "death.attack.assist","%1$s was second-hand killed","%1$s был второсортно убит"
 "death.attack.assist.player","%2$s was assisted in killing %1$s","%2$s нашёл ассистента для убийства %1$s"
@@ -215,4 +230,30 @@
 
 "block.minecraft.bed.gulf_etcetera","The Gulf doesn't know what this is."
 "item.etcetera.watercat_apple","Watercat Apple"
-"item.etcetera.watercat_apple.description","Makes you breathe water. Yim yum."
+"item.etcetera.watercat_apple.description","Makes you breathe water. Yim yum"
+"item.etcetera.turtle_bowl","Turtle Bowl"
+"item.etcetera.turtle_bowl.description","Soup bowl made of turtle scutes. Kinda useless underwater?"
+"item.etcetera.watercat_stock","Watercat Stock"
+"item.etcetera.watercat_stock.description","Fish broth made of Watercats"
+"item.etcetera.waterpie_cat","Waterpie Cat"
+"item.etcetera.waterpie_cat.description","The opposite of a Watercat Pie. Doesn't contain pies"
+"item.etcetera.salt","Salt"
+"item.etcetera.salt.description","Exactly what you'd expect"
+"ui.etcetera.salted","Salted"
+"entity.etcetera.deepkeeper","Deepkeeper"
+
+"ui.etcetera.exposure_chamber_too_close","Amethyst Exposure Chambers can't resonate this close to eachother"
+"ui.etcetera.multiblock_too_close","Another multiblock is too close"
+"item.etcetera.resonated_amethyst","Resonated Amethyst Shard"
+"item.etcetera.resonated_amethyst.description","It understands the purpose of this world"
+
+"item.etcetera.sneak_sensor","Sneak Sensor"
+"item.etcetera.sneak_sensor.description","Emits redstone singal if a player nearby sneaks"
+
+"subtitles.etcetera.elevator","Elevator moves"
+
+
+
+
+"item.arbiterlib.leafblower","Leafblower 9000"
+"item.arbiterlib.leafblower.description","Blows leaf litter"
