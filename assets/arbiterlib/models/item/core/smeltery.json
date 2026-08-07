@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/bricks",
+    "east": "arbiterlib:block/core/smeltery_side",
+    "north": "arbiterlib:block/core/smeltery_side",
+    "particle": "arbiterlib:block/core/smeltery_side",
+    "south": "arbiterlib:block/core/smeltery_side",
+    "up": "arbiterlib:block/core/smeltery_top",
+    "west": "arbiterlib:block/core/smeltery_side"
+  }
+}

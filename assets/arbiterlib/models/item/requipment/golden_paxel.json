@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "arbiterlib:item/requipment/golden_paxel"
+  }
+}

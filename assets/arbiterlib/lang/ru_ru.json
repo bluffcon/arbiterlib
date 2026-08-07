@@ -225,5 +225,20 @@
 	"item.etcetera.sneak_sensor.description": "",
 	"subtitles.etcetera.elevator": "",
 	"item.arbiterlib.leafblower": "",
-	"item.arbiterlib.leafblower.description": ""
+	"item.arbiterlib.leafblower.description": "",
+	"id.requipment": "",
+	"item.requipment.wooden_paxel": "",
+	"item.requipment.wooden_paxel.description": "",
+	"item.requipment.stone_paxel": "",
+	"item.requipment.stone_paxel.description": "",
+	"item.requipment.iron_paxel": "",
+	"item.requipment.iron_paxel.description": "",
+	"item.requipment.golden_paxel": "",
+	"item.requipment.golden_paxel.description": "",
+	"item.requipment.diamond_paxel": "",
+	"item.requipment.diamond_paxel.description": "",
+	"item.requipment.netherite_paxel": "",
+	"item.requipment.netherite_paxel.description": "",
+	"item.requipment.copper_paxel": "",
+	"item.requipment.copper_paxel.description": ""
 }

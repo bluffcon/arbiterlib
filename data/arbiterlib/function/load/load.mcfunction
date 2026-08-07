@@ -7,6 +7,7 @@ scoreboard objectives add arbiterlib.state.strength dummy
 scoreboard objectives add arbiterlib.state.resistance dummy
 scoreboard objectives add arbiterlib.timer dummy
 scoreboard objectives add arbiterlib.knowledge dummy
+scoreboard objectives add arbiterlib.leave custom:minecraft.leave_game
 
 scoreboard objectives add arbiterlib.player dummy
 scoreboard objectives add arbiterlib.trigger.ask_server trigger
@@ -22,6 +23,10 @@ scoreboard objectives add arbiterlib.button.selected dummy
 
 scoreboard objectives add arbiterlib.stats.walk custom:minecraft.walk_one_cm
 scoreboard objectives add arbiterlib.block.workbench.crafting_stack dummy
+scoreboard objectives add arbiterlib.block.smeltery.heat dummy
+scoreboard objectives add arbiterlib.block.smeltery.heating_process dummy
+scoreboard objectives add arbiterlib.block.smeltery.heating_stack dummy
+scoreboard objectives add arbiterlib.block.smeltery.heating_max dummy
 
 
 data modify storage arbiterlib:data reload set value {}

@@ -1,2 +1,3 @@
-execute if score @s arbiterlib.block.state matches 1 run return run function arbiterlib:lib/block/blocks/workbench/work/toggle/button/off
-execute unless score @s arbiterlib.block.state matches 1 run return run function arbiterlib:lib/block/blocks/workbench/work/toggle/button/on
+#execute if score @s arbiterlib.block.state matches 1 run return run function arbiterlib:lib/block/blocks/workbench/work/toggle/button/off
+#execute unless score @s arbiterlib.block.state matches 1 run return run function arbiterlib:lib/block/blocks/workbench/work/toggle/button/on
+function arbiterlib:lib/block/blocks/workbench/work/modifiers/slot {slot:18}

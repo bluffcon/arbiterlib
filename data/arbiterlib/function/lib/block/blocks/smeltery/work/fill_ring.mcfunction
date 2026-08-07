@@ -1,0 +1,2 @@
+execute unless items block ~ ~ ~ container.25 * run item replace block ~ ~ ~ container.25 with knowledge_book[rarity="common",tooltip_display={hide_tooltip:true},item_model="arbiterlib:slot_ring",custom_data={arbiterlib:{item:"null"}}]
+execute if items block ~ ~ ~ container.25 *[custom_data~{arbiterlib:{item:null}}] run item replace block ~ ~ ~ container.25 with knowledge_book[rarity="common",tooltip_display={hide_tooltip:true},item_model="arbiterlib:slot_ring",custom_data={arbiterlib:{item:"null"}}]

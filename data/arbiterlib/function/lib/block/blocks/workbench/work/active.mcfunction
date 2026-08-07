@@ -1,7 +1,8 @@
 execute unless entity @p[distance=..5] run return run setblock ~ ~ ~ barrel[open=false,facing=up]
 
 execute if score @s arbiterlib.block.state matches 1 run function arbiterlib:lib/block/blocks/workbench/work/fill_regular
-execute if score @s arbiterlib.block.state matches 2 run function arbiterlib:lib/block/blocks/workbench/work/fill_catalyst
+# execute if score @s arbiterlib.block.state matches 2 run function arbiterlib:lib/block/blocks/workbench/work/fill_catalyst
+execute if score @s arbiterlib.block.state matches 2 run scoreboard players set @s arbiterlib.block.state 1
 function arbiterlib:lib/block/blocks/workbench/work/toggle/put_button
 function arbiterlib:lib/block/blocks/workbench/work/wham/mode/fill
 function arbiterlib:lib/block/blocks/workbench/work/wham/craft/fill

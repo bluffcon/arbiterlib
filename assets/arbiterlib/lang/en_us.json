@@ -225,5 +225,20 @@
 	"item.etcetera.sneak_sensor.description": "Emits redstone singal if a player nearby sneaks",
 	"subtitles.etcetera.elevator": "Elevator moves",
 	"item.arbiterlib.leafblower": "Leafblower 9000",
-	"item.arbiterlib.leafblower.description": "Blows leaf litter"
+	"item.arbiterlib.leafblower.description": "Blows leaf litter",
+	"id.requipment": "Requipment",
+	"item.requipment.wooden_paxel": "Wooden Paxel",
+	"item.requipment.wooden_paxel.description": "Wooden pickaxe, axe, shovel, and hoe All-in-one",
+	"item.requipment.stone_paxel": "Stone Paxel",
+	"item.requipment.stone_paxel.description": "Stone pickaxe, axe, shovel, and hoe All-in-one",
+	"item.requipment.iron_paxel": "Iron Paxel",
+	"item.requipment.iron_paxel.description": "Iron pickaxe, axe, shovel, and hoe All-in-one",
+	"item.requipment.golden_paxel": "Golden Paxel",
+	"item.requipment.golden_paxel.description": "Golden pickaxe, axe, shovel, and hoe All-in-one",
+	"item.requipment.diamond_paxel": "Diamond Paxel",
+	"item.requipment.diamond_paxel.description": "Diamond pickaxe, axe, shovel, and hoe All-in-one",
+	"item.requipment.netherite_paxel": "Netherite Paxel",
+	"item.requipment.netherite_paxel.description": "Netherite pickaxe, axe, shovel, and hoe All-in-one",
+	"item.requipment.copper_paxel": "Copper Paxel",
+	"item.requipment.copper_paxel.description": "Copper pickaxe, axe, shovel, and hoe All-in-one"
 }

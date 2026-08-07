@@ -1,0 +1,1 @@
+$execute unless items block ~ ~ ~ container.$(slot) * run item replace block ~ ~ ~ container.$(slot) with knowledge_book[rarity="common",tooltip_display={hide_tooltip:true},item_model="arbiterlib:slot",custom_data={arbiterlib:{item:"null"}}]
