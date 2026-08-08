@@ -48,10 +48,10 @@ execute if score @s arbiterlib.block.smeltery.heat matches 1600..1800 run partic
 execute if score @s arbiterlib.block.smeltery.heat matches 1600..1800 as @a[distance=..2] run damage @s 0.2 in_fire
 
 
-execute if score @s arbiterlib.block.smeltery.heat matches 1800..2000 run particle dust{color:0,scale:2.1} ~ ~1 ~ 0.3 0.2 0.3 0.35 21
-execute if score @s arbiterlib.block.smeltery.heat matches 1800..2000 run particle dust{color:14177814,scale:1.9} ~ ~1.1 ~ 0.15 0.2 0.15 0.2 16
-execute if score @s arbiterlib.block.smeltery.heat matches 1800..2000 run particle dust{color:16566303,scale:1.7} ~ ~1.1 ~ 0.1 0.3 0.1 0.4 11
-execute if score @s arbiterlib.block.smeltery.heat matches 1800..2000 run particle dust{color:16776420,scale:1.4} ~ ~1.7 ~ 0.1 0.7 0.1 0.8 7
-execute if score @s arbiterlib.block.smeltery.heat matches 1800..2000 run particle lava ~ ~1 ~ 0.1 0 0.1 0.6 3
-execute if score @s arbiterlib.block.smeltery.heat matches 1800..2000 as @a[distance=..2] run damage @s 0.5 in_fire
+execute if score @s arbiterlib.block.smeltery.heat matches 1800.. run particle dust{color:0,scale:2.1} ~ ~1 ~ 0.3 0.2 0.3 0.35 21
+execute if score @s arbiterlib.block.smeltery.heat matches 1800.. run particle dust{color:14177814,scale:1.9} ~ ~1.1 ~ 0.15 0.2 0.15 0.2 16
+execute if score @s arbiterlib.block.smeltery.heat matches 1800.. run particle dust{color:16566303,scale:1.7} ~ ~1.1 ~ 0.1 0.3 0.1 0.4 11
+execute if score @s arbiterlib.block.smeltery.heat matches 1800.. run particle dust{color:16776420,scale:1.4} ~ ~1.7 ~ 0.1 0.7 0.1 0.8 7
+execute if score @s arbiterlib.block.smeltery.heat matches 1800.. run particle lava ~ ~1 ~ 0.1 0 0.1 0.6 3
+execute if score @s arbiterlib.block.smeltery.heat matches 1800.. as @a[distance=..2] run damage @s 0.5 in_fire
 

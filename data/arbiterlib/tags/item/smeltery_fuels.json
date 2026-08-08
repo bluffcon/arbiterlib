@@ -1,5 +1,5 @@
 {
     "values": [
-        "coal"
+        "#coals", "#planks", "#logs_that_burn", "blaze_rod"
     ]
 }

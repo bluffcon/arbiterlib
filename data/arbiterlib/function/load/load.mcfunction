@@ -27,6 +27,7 @@ scoreboard objectives add arbiterlib.block.smeltery.heat dummy
 scoreboard objectives add arbiterlib.block.smeltery.heating_process dummy
 scoreboard objectives add arbiterlib.block.smeltery.heating_stack dummy
 scoreboard objectives add arbiterlib.block.smeltery.heating_max dummy
+scoreboard objectives add arbiterlib.block.smeltery.heating_persist_process dummy
 
 
 data modify storage arbiterlib:data reload set value {}

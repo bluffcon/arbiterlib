@@ -16,7 +16,7 @@ function arbiterlib:lib/block/blocks/smeltery/work/modifiers/slot {slot:12}
 execute unless items block ~ ~ ~ container.13 * run item replace block ~ ~ ~ container.13 with knowledge_book[rarity="common",tooltip_display={hide_tooltip:false},item_model="arbiterlib:craft_button",custom_data={arbiterlib:{item:"null"}},item_name={translate:"ui.arbiterlib.smelt",color:gray,italic:false}]
 function arbiterlib:lib/block/blocks/smeltery/work/modifiers/slot {slot:14}
 
-execute unless items block ~ ~ ~ container.15 * run item replace block ~ ~ ~ container.15 with knowledge_book[rarity="common",tooltip_display={hide_tooltip:true},item_model="minecraft:air",custom_data={arbiterlib:{item:"null"}},item_name=""]
+#execute unless items block ~ ~ ~ container.15 * run item replace block ~ ~ ~ container.15 with knowledge_book[rarity="common",tooltip_display={hide_tooltip:true},item_model="minecraft:air",custom_data={arbiterlib:{item:"null"}},item_name=""]
 
 function arbiterlib:lib/block/blocks/smeltery/work/modifiers/slot {slot:16}
 function arbiterlib:lib/block/blocks/smeltery/work/modifiers/slot {slot:17}

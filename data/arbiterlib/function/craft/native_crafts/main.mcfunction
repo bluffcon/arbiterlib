@@ -27,6 +27,6 @@ if items block ~ ~ ~ container.19 brick \
 if items block ~ ~ ~ container.20 brick \
 if items block ~ ~ ~ container.21 brick \
 \
-run return run function arbiterlib:craft/workbench/craft/macro {namespace:"arbiterlib",loottable:"smeltery",rarity:"common",max_stack:1}
+run return run function arbiterlib:craft/workbench/craft/macro {namespace:"arbiterlib",loottable:"smeltery",rarity:"common",max_stack:64}
 
 

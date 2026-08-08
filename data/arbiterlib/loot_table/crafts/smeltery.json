@@ -19,7 +19,9 @@
                                             "function": "arbiterlib:lib/block/blocks/smeltery/spawn",
                                             "drop_loottable": "arbiterlib:crafts/smeltery",
                                             "id": "smeltery"
-                                        }
+                                        },
+                                      "id": "smeltery",
+                                      "namespace": "arbiterlib"
                                     }
                                 },
                         "item": {"id": "crafting_table","components": {"item_model": "arbiterlib:core/smeltery"}},
