@@ -232,8 +232,8 @@
 	"item.etcetera.sneak_sensor": "",
 	"item.etcetera.sneak_sensor.description": "",
 	"subtitles.etcetera.elevator": "",
-	"item.arbiterlib.leafblower": "",
-	"item.arbiterlib.leafblower.description": "",
+	"item.arbiterlib.leafblower": "Воздухуйка 9000",
+	"item.arbiterlib.leafblower.description": "Сдувает листья",
 	"id.requipment": "",
 	"item.requipment.wooden_paxel": "",
 	"item.requipment.wooden_paxel.description": "",
@@ -248,5 +248,14 @@
 	"item.requipment.netherite_paxel": "",
 	"item.requipment.netherite_paxel.description": "",
 	"item.requipment.copper_paxel": "",
-	"item.requipment.copper_paxel.description": ""
+	"item.requipment.copper_paxel.description": "",
+	"id.metaredstone": "",
+	"item.metaredstone.command.description_generic1": "",
+	"item.metaredstone.command.description_generic2": "",
+	"item.metaredstone.command.description_whenused": "",
+	"item.metaredstone.command.basic": "",
+	"item.metaredstone.command.forward": "",
+	"item.metaredstone.command.forward.description": "",
+	"item.metaredstone.command.rotate": "",
+	"item.metaredstone.command.rotate.description": ""
 }

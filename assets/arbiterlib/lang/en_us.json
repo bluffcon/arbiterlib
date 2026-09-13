@@ -248,5 +248,14 @@
 	"item.requipment.netherite_paxel": "Netherite Paxel",
 	"item.requipment.netherite_paxel.description": "Netherite pickaxe, axe, shovel, and hoe All-in-one",
 	"item.requipment.copper_paxel": "Copper Paxel",
-	"item.requipment.copper_paxel.description": "Copper pickaxe, axe, shovel, and hoe All-in-one"
+	"item.requipment.copper_paxel.description": "Copper pickaxe, axe, shovel, and hoe All-in-one",
+	"id.metaredstone": "Meta Redstone",
+	"item.metaredstone.command.description_generic1": "Command slips are used to give basic",
+	"item.metaredstone.command.description_generic2": "directions to Instruction Golems",
+	"item.metaredstone.command.description_whenused": "When used as an instruction:",
+	"item.metaredstone.command.basic": "Empty Command Slip",
+	"item.metaredstone.command.forward": "Command Slip: Forward",
+	"item.metaredstone.command.forward.description": "Moves 1m forward",
+	"item.metaredstone.command.rotate": "Command Slip: Rotate",
+	"item.metaredstone.command.rotate.description": "Rename to rotate this many degrees. Otherwise, 90"
 }
