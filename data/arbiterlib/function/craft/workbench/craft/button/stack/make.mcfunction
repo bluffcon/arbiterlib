@@ -6,7 +6,7 @@ execute if score .count arbiterlib.block.workbench.crafting_stack >= .max_count 
 tag @s add arbiterlib.block.workbench.stack
 
 
-$function arbiterlib:craft/workbench/craft/button/stack/iteration {namespace:$(namespace),loottable:$(loottable),rarity:$(rarity),max_stack:$(max_stack)}
+$function arbiterlib:craft/workbench/craft/button/stack/iteration {namespace:$(namespace),loottable:$(loottable),rarity:$(rarity),max_stack:$(max_stack),count:$(count)}
 function arbiterlib:craft/workbench/craft/button/main
 function arbiterlib:craft/workbench/craft/main
 

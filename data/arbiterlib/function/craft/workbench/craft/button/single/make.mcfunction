@@ -4,4 +4,4 @@ execute store result score .count arbiterlib.block.workbench.crafting_stack run 
 $scoreboard players set .max_count arbiterlib.block.workbench.crafting_stack $(max_stack)
 
 
-$function arbiterlib:craft/workbench/craft/button/single/iteration {namespace:$(namespace),loottable:$(loottable),rarity:$(rarity),max_stack:$(max_stack)}
+$function arbiterlib:craft/workbench/craft/button/single/iteration {namespace:$(namespace),loottable:$(loottable),rarity:$(rarity),max_stack:$(max_stack),count:$(count)}
