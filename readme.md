@@ -78,7 +78,7 @@ run return run function arbiterlib:craft/workbench/craft/macro {namespace:"arbit
 - Rarity is the rarity of the item as a component
 - Item is the vanilla Minecraft item that this item is
 - Max Stack is the allowed stacking for this item when crafting, not necessarily the stack limit
-- To supply output count you need both `count` and a `set_count` loot function
+- To supply output count you need both `count` and a `set_count` loot function 
 
 That's all. You can also skip the macro function and do your own thing! You can have separate preview and craft functions with different loot tables (make sure the custom_data still matches up between them). The function call format is the same, except:
 
