@@ -13,7 +13,7 @@
 
   "modrinth": {
     "project_id": "aHzaVmyo",
-    "game_versions": ["26.1.x"],
+    "game_versions": ["26.1.2"],
     "channel": "release",
     "environment": "server_only_client_optional"
   },
