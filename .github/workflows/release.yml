@@ -1,4 +1,4 @@
-
+# uploads to modrinth when commit with ! prefix
 
 name: Release on !version commit
 
