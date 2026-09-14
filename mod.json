@@ -1,0 +1,31 @@
+{
+  "id": "arbiterlib",
+  "name": "ArbiterLib",
+  "description": "A Datapack Library",
+  "license": "MIT",
+  "authors": ["bluffcon"],
+  "homepage": "https://modrinth.com/datapack/arbiterlib",
+  "sources": "https://github.com/bluffcon/arbiterlib",
+  "issues": "https://github.com/bluffcon/arbiterlib/issues",
+  "icon": "pack.png",
+
+  "main_mod": true,
+
+  "modrinth": {
+    "project_id": "aHzaVmyo",
+    "game_versions": ["26.1.x"],
+    "channel": "release",
+    "environment": "server_only_client_optional"
+  },
+
+  "pack": {
+    "min_format": 101,
+    "max_format": 101,
+    "description": "ArbiterLib"
+  },
+
+  "resource_pack": {
+    "present": true,
+    "required": true
+  }
+}
