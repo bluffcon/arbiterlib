@@ -1,10 +1,7 @@
-schedule function arbiterlib:ticks/regular 2t
-execute unless score .regular arbiterlib.timer matches 1..5 run scoreboard players set .regular arbiterlib.timer 1
-execute unless score .regular.count arbiterlib.timer matches ..0 run return run scoreboard players remove .regular.count arbiterlib.timer 1
-scoreboard players operation .regular.count arbiterlib.timer = .regular arbiterlib.timer
+schedule function arbiterlib:ticks/regular 4t
 
 
-# for functions that can be ran as often as every 2-8 ticks. server admins can override this
+# for functions that are regular constant jobs
 function #arbiterlib:t/regular
 
 execute as @a at @s run function arbiterlib:ticks/regular/players

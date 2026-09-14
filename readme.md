@@ -4,7 +4,7 @@
 - Commands for quick actions like applying y-motion, quick heads, instakills, etc.
 - Custom block registry and centralized custom crafting and smelting (wip)!!!
 - Player data storage, id bound, for storing and retrieving anything persistent
-- Customizable ticking times set by the admin, grouped together by necessity of the action
+- Ticking grouped together by necessity of the action
 
 Star this repo!! ⭐⭐⭐⭐⭐⭐
 
@@ -48,7 +48,7 @@ Buttons should have the `arbiterlib.button` tag. Entity data should be formatted
 
 Select function is right click (use). Tap function is left click (hit).
 
-### Crafting Recipes (BETA)
+### Crafting Recipes
 > This is done in Arbiter's **Workbench**: a utility block made with 2 planks and 2 logs.
 Crafting works in 2 parts: making a preview item for the player and then making a real one after they click the craft button. These are done in a separate preview function and a separate crafting function. If you wish to have full control over both the preview and result item, you can do that by making 2 separate functions, but Arbiter has a macro that runs both for you at the same time.
 
