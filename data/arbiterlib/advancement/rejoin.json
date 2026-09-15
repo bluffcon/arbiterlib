@@ -1,14 +1,21 @@
 {
-    "criteria": {"name": {"trigger": "tick", "conditions": {
-        "player": [
-            {
-                "condition": "entity_scores",
-                "entity": "this",
-                "scores": {
-                    "arbiterlib.leave": {"min": 1}
+    "criteria": {
+        "name": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "type": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "arbiterlib.leave": {
+                            "min": 1
+                        }
+                    }
                 }
             }
-        ]
-    }}},
-    "rewards": {"function": "arbiterlib:lib/player/rejoin"}
-} 
+        }
+    },
+    "rewards": {
+        "function": "arbiterlib:lib/player/rejoin"
+    }
+}

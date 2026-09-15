@@ -3,7 +3,20 @@
         "x": {
             "trigger": "player_hurt_entity",
             "conditions": {
-                "entity": {"type": "interaction", "nbt": {"data": {"arbiterlib": {"entity": "button"}}}}
+                "entity": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "entity_type": "interaction",
+                        "nbt": {
+                            "data": {
+                                "arbiterlib": {
+                                    "entity": "button"
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     },

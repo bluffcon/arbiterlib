@@ -3,9 +3,14 @@
         "x": {
             "trigger": "any_block_use",
             "conditions": {
-                "location": [{"condition": "block_state_property", "block": "barrel"}]
+                "location": {
+                    "type": "minecraft:match_block",
+                    "blocks": "barrel"
+                }
             }
         }
     },
-    "rewards": {"function": "arbiterlib:lib/block/blocks/smeltery/open_advancement"}
+    "rewards": {
+        "function": "arbiterlib:lib/block/blocks/smeltery/open_advancement"
+    }
 }

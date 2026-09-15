@@ -6,25 +6,45 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_pickaxe",
-          "functions": [
-            {"function": "set_components",
-                "components": {
-                  "food": {"nutrition": 2,"saturation": 1,"can_always_eat": true}, "consumable": {}, 
-                    "item_model": "arbiterlib:bread_pickaxe",
-                    "item_name": {"translate": "item.arbiterlib.bread_pickaxe","fallback": "Bread Pickaxe"},
-                    "custom_data": {
-                        "arbiterlib": {"namespace":"arbiterlib","id":"bread_pickaxe"}
-                    },
-                    "lore": [
-                        {"translate":"item.arbiterlib.bread_pickaxe.description", "fallback": "The Bread Pickaxe", "color": "gray", "italic": false},
-                        {"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": false}
-                    ]
+          "modifier": {
+            "type": "set_components",
+            "components": {
+              "food": {
+                "nutrition": 2,
+                "saturation": 1,
+                "can_always_eat": true
+              },
+              "consumable": {},
+              "item_model": "arbiterlib:bread_pickaxe",
+              "item_name": {
+                "translate": "item.arbiterlib.bread_pickaxe",
+                "fallback": "Bread Pickaxe"
+              },
+              "custom_data": {
+                "arbiterlib": {
+                  "namespace": "arbiterlib",
+                  "id": "bread_pickaxe"
                 }
+              },
+              "lore": [
+                {
+                  "translate": "item.arbiterlib.bread_pickaxe.description",
+                  "fallback": "The Bread Pickaxe",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "id.arbiterlib",
+                  "fallback": "ArbiterLib",
+                  "color": "blue",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          }
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ]
 }
