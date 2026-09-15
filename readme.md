@@ -15,20 +15,22 @@ Star this repo!! ⭐⭐⭐⭐⭐⭐
 - Use Arbiter's `arbiterlib:player` score id system, from which you can access player data by using a macro on `arbiterlib:player_data` storage
 - Load your own effects in `#arbiterlib:welcomes` and say hi to private worlds in `#arbiterlib:singleplayer_first_time_playing`
 - Add your message to the pool of random reload messages for server admins
+- For the rest of info, please visit the `info.md` file
 
-> For the rest of info, please visit the `info.md` file
+> Check out the [Template Project](https://github.com/bluffcon/example-arbiterlib) for Arbiter to get started! All requirements in implementation are already there!
 
 ### Custom Blocks
 Custom blocks can be registered by having an `item_display` entity with its data property like this
 ```json
-{"arbiterlib":
-   {"block":
-       {"namespace": "arbiterlib",
-        "function": "arbiterlib:lib/block/blocks/workbench/spawn",
-        "drop_loottable": "arbiterlib:blocks/workbench",
-        "id": "workbench"
-       }
-   }
+{
+    "arbiterlib": {
+        "block": {
+            "namespace": "arbiterlib",
+            "function": "arbiterlib:lib/block/blocks/workbench/spawn",
+            "drop_loottable": "arbiterlib:blocks/workbench",
+            "id": "workbench"
+        }
+    }
 }
 ```
 The entity must also include the `arbiterlib.block` tag to be detected
@@ -95,7 +97,7 @@ Please make sure both are present! If you have a separate preview and craft for 
 Custom Data: must include
 - `"arbiterlib": {"namespace":"arbiterlib","id":"workbench"}`
 
-Lore: last line must always include the datapack namespace in blue text
+Lore: last line must always include the datapack id in blue text
 - `{"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": false}`
 
 **For blocks:**
@@ -113,5 +115,6 @@ Lore: last line must always include the datapack namespace in blue text
 - Plan out a future turn-based RPG pvp/pve minigame for Arbiter dependants (?)
 
 ## About Arbiter
-Arbiter could make things easier for you, but could also make them take more time depending on how you work. You're free to use it or not use it! Open an issue if you have thoughts on how to improve Arbiter or if you found an error within this code
-> Arbiter includes some heavy self-branding like putting its name in the reloads, having a default welcome message, etc. Don't be discouraged from using Arbiter because of this! Chances are, this exact name brought you here, making you interested in this library yourself. Most of these things can be overridden with an addon to Arbiter or configured to never show up by a server admin. We only want the name of the Arbiter to be heard loud and clear! Thank you for reading!
+Arbiter could make things easier for you, but could also make them take more time depending on how you work. You're free to use it or not use it! Open an issue if you have thoughts on how to improve Arbiter or if you found an error within this code.
+
+> Thank you for reading!
