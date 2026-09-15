@@ -1,1 +1,0 @@
-clear @s *[custom_data~{arbiterlib:{craft:"uncrafted"}}]
