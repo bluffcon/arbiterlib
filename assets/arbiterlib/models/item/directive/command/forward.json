@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "arbiterlib:item/metaredstone/command/basic"
+    "layer0": "arbiterlib:item/directive/command/forward"
   }
 }
