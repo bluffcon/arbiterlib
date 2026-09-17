@@ -1,0 +1,41 @@
+{
+    "type": "group",
+    "terms": [
+        {
+            "type": "slot_range",
+            "slots": "container.1"
+        },
+        {
+            "type": "slot_range",
+            "slots": "container.2"
+        },
+        {
+            "type": "slot_range",
+            "slots": "container.3"
+        },
+        {
+            "type": "slot_range",
+            "slots": "container.10"
+        },
+        {
+            "type": "slot_range",
+            "slots": "container.11"
+        },
+        {
+            "type": "slot_range",
+            "slots": "container.12"
+        },
+        {
+            "type": "slot_range",
+            "slots": "container.19"
+        },
+        {
+            "type": "slot_range",
+            "slots": "container.20"
+        },
+        {
+            "type": "slot_range",
+            "slots": "container.21"
+        }
+    ]
+}
