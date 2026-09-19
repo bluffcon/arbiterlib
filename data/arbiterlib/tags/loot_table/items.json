@@ -1,0 +1,8 @@
+{
+    "values": [
+        "arbiterlib:blocks/workbench",
+        "arbiterlib:crafts/bread_pickaxe",
+        "arbiterlib:crafts/smeltery",
+        "arbiterlib:smelts/brick"
+    ]
+}
