@@ -1,4 +1,4 @@
-![Project banner](github.com/bluffcon/arbiterlib/blob/main/arbiter_banner.png?raw=true)
+![Project banner](https://github.com/bluffcon/arbiterlib/blob/main/arbiter_banner.png?raw=true)
 
 # ArbiterLib ⚙️
 
