@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "poisonous_potato",
+                    "modifier": [
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "!food": {}, "!consumable": {},
+                                "custom_data": {
+                                    "arbiterlib": {
+                                        "item": "body"
+                                    }
+                                },
+                                "item_model": "air",
+                                "item_name": "",
+                                "equippable": {
+                                    "slot": "body",
+                                    "allowed_entities": "player",
+                                    "equip_sound": {
+                                        "sound_id": ""
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

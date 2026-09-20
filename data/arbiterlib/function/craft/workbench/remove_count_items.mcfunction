@@ -1,0 +1,1 @@
+$scoreboard objectives remove arbiterlib.block.workbench.ingredients.$(block_id)

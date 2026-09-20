@@ -1,120 +1,49 @@
-# ArbiterLib ⚙️
-**Arbiter** is my personal Minecraft datapack development library. It makes some things easier for those who wish to use it!
-- Built-in QOL like first-time greetings for server members and new worlds
-- Commands for quick actions like applying y-motion, quick heads, instakills, etc.
-- Custom block registry and centralized custom crafting and smelting (wip)!!!
-- Player data storage, id bound, for storing and retrieving anything persistent
-- Ticking grouped together by necessity of the action
+![github.com/bluffcon/arbiterlib/blob/main/arbiter_banner.png?raw=true]
 
-Star this repo!! ⭐⭐⭐⭐⭐⭐
+# ArbiterLib ⚙️
+
+**Arbiter** is a Minecraft datapack framework library, your tool for quicker implementation of things you wish to make. It makes things easier for those who wish to use it!
+
+## What it has to offer
+
+- Crafting: a workbench and a smeltery, mimicking vanilla blocks.
+> **JEI Integration for all Arbiter recipes via [our JEI addon](https://modrinth.com/mod/arbiterjei)**
+
+- Commands for quick actions like applying y-motion, quick heads, instakills, etc.
+
+- Block registry and centralized ticks. Placement logic and removal handled by Arbiter!
+
+- Centralized player data storage, via ID in scoreboard and data storage, for storing and retrieving anything persistent
+
+These are not *new* features, there are already libraries that make blocks or add crafting stations. But Arbiter does it all in one place, and Arbiter wants to do them better than anything else.
+
+Feature requests and issues are more than welcome! Any size or complexity.
 
 ## Using Arbiter:
-- Use the Arbiter tick system:
-> `#arbiterlib:t/quick` for tick intervals, `#arbiterlib:t/regular` for simple jobs, `#arbiterlib:t/redundant` for things that should happen once in sometimes. Feel free to expand by adding your own ticks to `#arbiterlib:load`
-- Use Arbiter's entity tags, like excluding `#arbiterlib:inanimate` to search for living entities
-- Use Arbiter's `arbiterlib:player` score id system, from which you can access player data by using a macro on `arbiterlib:player_data` storage
-- Load your own effects in `#arbiterlib:welcomes` and say hi to private worlds in `#arbiterlib:singleplayer_first_time_playing`
-- Add your message to the pool of random reload messages for server admins
-- For the rest of info, please visit the `info.md` file
 
-> Check out the [Template Project](https://github.com/bluffcon/example-arbiterlib) for Arbiter to get started! All requirements in implementation are already there!
+It is preferred Arbiter projects implement some or most of the Arbiter conventions. They're made to create a coherent experience that works in every shape and form. **To see all conventions, visit the [`conventions.md` file](https://github.com/bluffcon/arbiterlib/blob/main/conventions.md)**
 
-### Custom Blocks
-Custom blocks can be registered by having an `item_display` entity with its data property like this
-```json
-{
-    "arbiterlib": {
-        "block": {
-            "namespace": "arbiterlib",
-            "function": "arbiterlib:lib/block/blocks/workbench/spawn",
-            "drop_loottable": "arbiterlib:blocks/workbench",
-            "id": "workbench"
-        }
-    }
-}
-```
-The entity must also include the `arbiterlib.block` tag to be detected
-Then in your `function` you play the sound, place the block, play your effects. In `drop_loottable` specify the loottable that gives your item.
-
-### Particle Shapes
-Arbiter has some presets for shapes made out of particles. You need to use a macro with all necessary data to make a shape, the data required is in the function name.
-**Considerations:**
-- Particle shapes are EXTREMELY laggy, especially the more complex the math gets. They are meant to be played as one-shot effects rather than a constant trail. A single command block running the sphere (radius 2) command every tick can increase the servers MSPT by 8 (a LOT!!!) since its running 20000 commands every second
-- The circle shape is rotated with the player and uses `^ ^ ^` coordinates, which is how the sphere shape is generated. You can make sphere-like shapes yourself alongside other curves just by using the circle tool
-
-### Buttons
-Interaction entities that have a tag and some specific `data` that lets them run functions on press. Quick utility that lets you skip the boring part of interactions!
-
-Buttons should have the `arbiterlib.button` tag. Entity data should be formatted like:
-> `{arbiterlib:{entity:"button",select_function:"AAAAA",tap_function:"BBBBB"}}`
-
-Select function is right click (use). Tap function is left click (hit).
-
-### Crafting Recipes
-> This is done in Arbiter's **Workbench**: a utility block made with 2 planks and 2 logs.
-Crafting works in 2 parts: making a preview item for the player and then making a real one after they click the craft button. These are done in a separate preview function and a separate crafting function. If you wish to have full control over both the preview and result item, you can do that by making 2 separate functions, but Arbiter has a macro that runs both for you at the same time.
-
-Currently Alternative Crafting is not implemented. Please contribute with code or an issue if you have any problems with the Workbench!
-
-### Adding Crafting for your items
-`#arbiterlib:workbench` will have functions matching all items in the workbench for all 9 (10) slots, which will then branch out and do everything it needs in the macro function.
-```js
-execute \
-if items block ~ ~ ~ container.1 bread \
-if items block ~ ~ ~ container.2 bread \
-if items block ~ ~ ~ container.3 bread \
-\
-unless items block ~ ~ ~ container.10 * \
-if items block ~ ~ ~ container.11 stick \
-unless items block ~ ~ ~ container.12 * \
-\
-unless items block ~ ~ ~ container.19 * \
-if items block ~ ~ ~ container.20 stick \
-unless items block ~ ~ ~ container.21 * \
-\
-run return run function arbiterlib:craft/workbench/craft/macro {namespace:"arbiterlib", loottable:"bread_pickaxe",rarity:"common", max_stack: 1, count: 1}
-```
-> This matches for a pickaxe shape with 3 bread on top.
-
-- **`loottable` points to <namespace>:crafts/<loottable>**
-- Rarity is the rarity of the item as a component
-- Item is the vanilla Minecraft item that this item is
-- Max Stack is the allowed stacking for this item when crafting, not necessarily the stack limit
-- To supply output count you need both `count` and a `set_count` loot function 
-
-That's all. You can also skip the macro function and do your own thing! You can have separate preview and craft functions with different loot tables (make sure the custom_data still matches up between them). The function call format is the same, except:
-
-- `#arbiterlib:workbench_previews` will run `arbiterlib:craft/workbench/craft/found`
-- `#arbiterlib:workbench_craft` will run `arbiterlib:craft/workbench/craft/button/make`
-
-Please make sure both are present! If you have a separate preview and craft for this item please don't run the macro!
+> Check out the [Template Project](https://github.com/bluffcon/example-arbiterlib) for Arbiter to get started! All requirements in implementation are already there. It's always kept up-to-date with the features of this repo.
 
 
+### Nice things
 
-# Requirements in implementation
-**For items:**
+These are small, but can improve quality of life if used correctly.
 
-Custom Data: must include
-- `"arbiterlib": {"namespace":"arbiterlib","id":"workbench"}`
+- The Arbiter tick system:
+> `#arbiterlib:t/quick` for tick intervals (1t), `#arbiterlib:t/regular` for regular jobs (4t), `#arbiterlib:t/redundant` for things that should happen once in sometimes (160t, modifiable by server admin). Feel free to expand by adding your own ticks to `#arbiterlib:load`
 
-Lore: last line must always include the datapack id in blue text
-- `{"translate":"id.arbiterlib", "fallback": "ArbiterLib","color": "blue", "italic": false}`
+- Arbiter's `arbiterlib:player` score id system, from which you can access player data by using a macro on `arbiterlib:player_data` storage
 
-**For blocks:**
-- Blocks are Item Display entities with specific tags and entity data
-- Must include the `arbiterlib.block` entity tag
-- Data: `{"arbiterlib":{"block":{"namespace":"arbiterlib","function":"arbiterlib:lib/block/blocks/workbench/spawn","drop_loottable": "arbiterlib:blocks/workbench"}}}`
-- When breaking, drop by using `function arbiterlib:lib/block/drop with entity @s data.arbiterlib.block` before killing @s.
-- Add block ticks to `#arbiterlib:t/block_ticks` and format each line like `execute if entity @s[tag=arbiterlib.block.workbench] run return run function arbiterlib:lib/block/blocks/workbench/tick`
-- Give your block the `arbiterlib.block.adjustable_light` tag to let Arbiter detect light changes and update your block's `brightness`
+- Arbiter's tags, one can be excluding `#arbiterlib:inanimate` to search for living entities, or checking if this block is `#arbiterlib:
+
+- For the rest of features and information, **please visit the [`info.md` file](https://github.com/bluffcon/arbiterlib/blob/main/info.md)**
 
 
+# Afterword
 
-### To-do
-- Alternative Crafting
-- Plan out a future turn-based RPG pvp/pve minigame for Arbiter dependants (?)
+[Join the Discord](https://discord.gg/wczBNd8qVE) to chat about your projects you may develop with this, about datapacks that use this framework, or anything else in the world!
 
-## About Arbiter
 Arbiter could make things easier for you, but could also make them take more time depending on how you work. You're free to use it or not use it! Open an issue if you have thoughts on how to improve Arbiter or if you found an error within this code.
 
-> Thank you for reading!
+Contributions, feature requests, code reviews, and issues are all welcome!
