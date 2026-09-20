@@ -37,7 +37,7 @@ These are small, but can improve quality of life if used correctly.
 
 - Arbiter's tags, one can be excluding `#arbiterlib:inanimate` to search for living entities, or checking if this block is `#arbiterlib:
 
-- For the rest of features and information, **please visit the [`info.md` file](https://github.com/bluffcon/arbiterlib/blob/main/info.md)**
+For the rest of features and information, **please visit the [`info.md` file](https://github.com/bluffcon/arbiterlib/blob/main/info.md)**
 
 
 # Afterword
