@@ -44,7 +44,7 @@ Crafting works in 2 parts: making a preview item for the player and then making 
 Currently Alternative Crafting is not implemented. Please contribute with code or an issue if you have any problems with the Workbench!
 
 ### Adding Crafting for your items
-`#arbiterlib:workbench` will have functions matching all items in the workbench for all 9 (10) slots, which will then branch out and do everything it needs in the macro function.
+`#arbiterlib:craft/workbench` will have functions matching all items in the workbench for all 9 (10) slots, which will then branch out and do everything it needs in the macro function.
 ```js
 execute \
 if items block ~ ~ ~ container.1 bread \
@@ -69,10 +69,17 @@ run return run function arbiterlib:craft/workbench/craft/macro {namespace:"arbit
 - Max Stack is the allowed stacking for this item when crafting, not necessarily the stack limit
 - To supply output count you need both `count` and a `set_count` loot function 
 
+Alternatively, to make a simple vanilla item without a loot table:
+```js
+...
+run return run function arbiterlib:craft/workbench/craft/macro_vanilla_output \
+{namespace:"minecraft", item:"gunpowder", translation:"item.minecraft.gunpowder", model:"gunpowder", max_stack:64, count:1}
+```
+
 That's all. You can also skip the macro function and do your own thing! You can have separate preview and craft functions with different loot tables (make sure the custom_data still matches up between them). The function call format is the same, except:
 
-- `#arbiterlib:workbench_previews` will run `arbiterlib:craft/workbench/craft/found`
-- `#arbiterlib:workbench_craft` will run `arbiterlib:craft/workbench/craft/button/make`
+- `#arbiterlib:craft/:workbench_previews` will run `arbiterlib:craft/workbench/craft/found`
+- `#arbiterlib::craft/workbench_craft` will run `arbiterlib:craft/workbench/craft/button/make`
 
 Please make sure both are present! If you have a separate preview and craft for this item please don't run the macro!
 

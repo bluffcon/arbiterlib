@@ -1,3 +1,5 @@
+
+
 scoreboard objectives add arbiterlib dummy
 scoreboard objectives add arbiterlib.settings dummy
 scoreboard players set .exists arbiterlib 1
@@ -41,5 +43,5 @@ function #arbiterlib:load
 execute unless score .reload_notification arbiterlib.settings matches -1 as @a unless entity @s[gamemode=survival] unless entity @s[gamemode=adventure] run function arbiterlib:load/reload
 
 scoreboard players add .reloads arbiterlib.timer 1
-scoreboard objectives remove arbiterlib
+
 
