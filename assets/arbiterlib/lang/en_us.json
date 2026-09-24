@@ -265,5 +265,20 @@
 	"item.directive.command.rotate.description": "Rename to rotate this many degrees. Otherwise, 90",
 	"item.directive.command.rotreset": "Command Slip: Rotation Reset",
 	"item.directive.command.rotreset.description": "Resets Golem rotation and snaps to block grid",
-	"ui.directive.guide.main.title": "Guide"
+	"ui.directive.guide.main.title": "Guide",
+	"id.sulfur_expansion": "Sulfur Expansion",
+	"id.sulfur_expansion.short": "Sulfur Expansion",
+	"mcmeta.sulfur_expansion.1": "Sulfur Expansion",
+	"mcmeta.sulfur_expansion.2": "placeholder",
+	"mcmeta.sulfur_expansion.3": " by bluffcon + ArbiterLib",
+	"item.sulfur_expansion.sulfur_ball": "Sulfur Ball",
+	"item.sulfur_expansion.sulfur_ball.description": "Inorganic sulfur-rich gel. Great at trapping water",
+	"item.sulfur_expansion.hydrated_sulfur_ball": "Hydrated Sulfur Ball",
+	"item.sulfur_expansion.hydrated_sulfur_ball.description": "Sulfuric bubble with trapped liquid. Can be used as water",
+	"item.sulfur_expansion.cinnabar_feed": "Cinnabar Feed",
+	"item.sulfur_expansion.cinnabar_feed.description": "Can be fed to small Sulfur Cubes instead of Sulfur Balls",
+	"item.sulfur_expansion.small_sulfur_cube": "Small Sulfur Cube",
+	"item.sulfur_expansion.small_sulfur_cube.description": "A small Sulfur Cube that can't grow up",
+	"block.sulfur_expansion.froglight_sulfate": "Froglight Sulfate",
+	"block.sulfur_expansion.froglight_sulfate.description": "Dirty-yellow light source that's dissolvable in water"
 }

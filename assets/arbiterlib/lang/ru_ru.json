@@ -265,5 +265,20 @@
 	"item.directive.command.rotate.description": "",
 	"item.directive.command.rotreset": "",
 	"item.directive.command.rotreset.description": "",
-	"ui.directive.guide.main.title": ""
+	"ui.directive.guide.main.title": "",
+	"id.sulfur_expansion": "",
+	"id.sulfur_expansion.short": "",
+	"mcmeta.sulfur_expansion.1": "",
+	"mcmeta.sulfur_expansion.2": "",
+	"mcmeta.sulfur_expansion.3": "",
+	"item.sulfur_expansion.sulfur_ball": "",
+	"item.sulfur_expansion.sulfur_ball.description": "",
+	"item.sulfur_expansion.hydrated_sulfur_ball": "",
+	"item.sulfur_expansion.hydrated_sulfur_ball.description": "",
+	"item.sulfur_expansion.cinnabar_feed": "",
+	"item.sulfur_expansion.cinnabar_feed.description": "",
+	"item.sulfur_expansion.small_sulfur_cube": "",
+	"item.sulfur_expansion.small_sulfur_cube.description": "",
+	"block.sulfur_expansion.froglight_sulfate": "",
+	"block.sulfur_expansion.froglight_sulfate.description": ""
 }
