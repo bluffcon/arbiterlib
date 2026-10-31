@@ -154,6 +154,9 @@
 	"ui.autofisher.skin.102": "Транс - Уменьшает кулдаун на 2%% за каждую сеть рядом",
 	"ui.autofisher.skin.102.condition": "",
 	"ui.autofisher.notification.pride_reward": "",
+	"item.autofisher.skin_pack.scary": "Набор сетей Страшно",
+	"item.autofisher.skin_pack.scary.description": "Работает быстрее в страшных биомах",
+	"ui.autofisher.skin.106": "Страшно - Кулдаун короче на 50%% в пёстрых лесах и болотах",
 	"subtitles.autofisher.water_splash": "Рыболовная сеть поймала рыбу",
 	"subtitles.autofisher.fishing_reel": "Рыболовная сеть начинает приманивать рыбу",
 	"advancements.autofisher.caught_in_the_nets": "Сетоловня с вами",
@@ -280,5 +283,7 @@
 	"item.sulfur_expansion.small_sulfur_cube": "",
 	"item.sulfur_expansion.small_sulfur_cube.description": "",
 	"block.sulfur_expansion.froglight_sulfate": "",
-	"block.sulfur_expansion.froglight_sulfate.description": ""
+	"block.sulfur_expansion.froglight_sulfate.description": "",
+	"item.sulfur_expansion.light_moss": "",
+	"item.sulfur_expansion.light_moss.description": ""
 }
