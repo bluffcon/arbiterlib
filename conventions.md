@@ -137,6 +137,23 @@ run return run function arbiterlib:craft/smeltery/craft/macro \
 {namespace: "arbiterlib", loottable: "brick", max_stack: 64, needed_heat: 400, consume_heat: 100}
 ```
 
+5. Smelting fuels are defined via a `custom_data` component. A `fuel` field inside `arbiterlib` with 4 values should be present: `item_control_mode` (points to an item modified of `arbiterlib:<mode>`), `max_reachable_heat` (heat value at which, or above, this fuel will no longer add more heat), `heat` (heat to add per regular tick, aka every 4 ticks), `time` (time in regular ticks, how long will this fuel burn for), `lossless_time` (Smeltery naturally loses 1 heat per regular tick, this is time in regular ticks for how long it won't)
+```json
+"custom_data": {
+	"arbiterlib": {
+        "namespace": "arbiterlib",
+        "id": "weird_coal",
+        "fuel": {
+            "item_control_mode": "reduce",
+            "max_reachable": 1200,
+            "heat": 2,
+            "time": 200,
+            "lossless_time": 100
+        }
+    }
+},
+```
+
 # Blocks
 
 ## Voluntary
