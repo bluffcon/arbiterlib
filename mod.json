@@ -14,7 +14,6 @@
   "modrinth": {
     "project_id": "aHzaVmyo",
     "game_versions": ["26.3"],
-    "channel": "release",
     "environment": "server_only_client_optional"
   },
 

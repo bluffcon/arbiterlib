@@ -216,7 +216,7 @@ No conventions
 
 6. Arbiter has 4 tick levels, `quick` (every 1t), `regular` (every 4t), `frequent` (every 20t), `redundant` (default every 5 seconds, modifiable per world by changing `.redundant`'s score in `arbiterlib.timer` objective). Each tick has an associated function tag, `#arbiterlib:t/<level>`, as well as a sublevel that already selected every player, `#arbiterlib:t/<level>/players`. `regular` and `redundant` have additional block tick sublevels, `#arbiterlib:t/regular/blocks` and `#arbiterlib:t/redundant/blocks`, they run as Arbiter blocks.
 
-7. 
+7. You can add your own welcome message and execute functions on world join, creation, rejoin, etc. See the 
 
 
 

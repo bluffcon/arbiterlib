@@ -71,6 +71,7 @@
 "ui.arbiterlib.heat_colon","Heat:","Жар:"
 "ui.arbiterlib.persistentheat_colon","Warmth:","Тепло:"
 "ui.arbiterlib.required_heat_craft","(Requires heat: ","(Нужный жар: "
+"ui.arbiterlib.creative_world_settings","Replaced some gamerules with values for creative worlds","Некоторые игровые правила были заменены на значения для творческих миров"
 
 
 
@@ -261,7 +262,7 @@
 "item.etcetera.sneak_sensor","Sneak Sensor"
 "item.etcetera.sneak_sensor.description","Emits redstone singal if a player nearby sneaks"
 
-"subtitles.etcetera.elevator","Elevator moves"
+"subtitles.etcetera.elevator","Elevator moves","Лифт движется"
 
 
 
@@ -290,43 +291,98 @@
 
 
 
-"mcmeta.directive.1","Directive"
-"mcmeta.directive.2","New tech meta!"
-"mcmeta.directive.3"," by bluffcon + ArbiterLib"
-"id.directive","Directive"
-"entity.directive.golem","Instruction Golem"
-"entity.directive.golem.unconnected","<Unconnected>"
+"mcmeta.directive.1","Directive","Directive"
+"mcmeta.directive.2","New tech meta!","Новая эра техники!"
+"mcmeta.directive.3"," by bluffcon + ArbiterLib"," от bluffcon + ArbiterLib"
+"id.directive","Directive","Directive"
+"entity.directive.golem","Instruction Golem","Инструкциоголем"
+"entity.directive.golem.unconnected","<Unconnected>","<Не подключен>"
 
-"item.directive.command.description_generic1","Command slips are used to give basic"
-"item.directive.command.description_generic2","directions to Instruction Golems"
-"item.directive.command.description_whenused","When used as an instruction:"
-"item.directive.command.basic","Empty Command Slip"
-"item.directive.command.forward","Command Slip: Forward"
-"item.directive.command.forward.description","Moves 1m forward"
-"item.directive.command.rotate","Command Slip: Rotate"
-"item.directive.command.rotate.description","Rename to rotate this many degrees. Otherwise, 90"
-"item.directive.command.rotreset","Command Slip: Rotation Reset"
-"item.directive.command.rotreset.description","Resets Golem rotation and snaps to block grid"
+"item.directive.command.description_generic1","Command slips are used to give basic","Обрезки команд используются для подачи"
+"item.directive.command.description_generic2","directions to Instruction Golems","базовых команд инструкциоголемам"
+"item.directive.command.description_whenused","When used as an instruction:","Когда использовано как инструкция:
+"item.directive.command.basic","Empty Command Slip","Пустой обрезок команды"
+"item.directive.command.forward","Command Slip: Forward", "Обрезок команды: Вперёд"
+"item.directive.command.forward.description","Moves 1m forward","Двигается 1м вперед"
+"item.directive.command.rotate","Command Slip: Rotate","Обрезок команды: Поворот"
+"item.directive.command.rotate.description","Rename to rotate this many degrees. Otherwise, 90","Переименуйте, чтобы повернуть на столько градусов. Иначе 90"
+"item.directive.command.rotreset","Command Slip: Rotation Reset","Обрезок команды: Сброс поворота"
+"item.directive.command.rotreset.description","Resets Golem rotation and snaps to block grid","Сбрасывает поворот голема и возвращает на сетку блоков"
 
-"ui.directive.guide.main.title","Guide"
-
-
+"ui.directive.guide.main.title","Guide","Инструкция"
 
 
-"id.sulfur_expansion","Sulfur Expansion"
-"id.sulfur_expansion.short","Sulfur Expansion"
-"mcmeta.sulfur_expansion.1","Sulfur Expansion"
-"mcmeta.sulfur_expansion.2","More Chaos!"
-"mcmeta.sulfur_expansion.3"," by bluffcon + ArbiterLib"
-"item.sulfur_expansion.sulfur_ball","Sulfur Ball"
-"item.sulfur_expansion.sulfur_ball.description","Inorganic sulfur-rich gel. Great at trapping water"
-"item.sulfur_expansion.hydrated_sulfur_ball","Hydrated Sulfur Ball"
-"item.sulfur_expansion.hydrated_sulfur_ball.description","Sulfuric bubble with trapped liquid. Can be used as water"
-"item.sulfur_expansion.cinnabar_feed","Cinnabar Feed"
-"item.sulfur_expansion.cinnabar_feed.description","Can be fed to small Sulfur Cubes instead of Sulfur Balls"
-"item.sulfur_expansion.small_sulfur_cube","Small Sulfur Cube"
-"item.sulfur_expansion.small_sulfur_cube.description","A small Sulfur Cube that can't grow up"
-"block.sulfur_expansion.froglight_sulfate","Froglight Sulfate"
-"block.sulfur_expansion.froglight_sulfate.description","Dirty-yellow light source that's dissolvable in water"
-"item.sulfur_expansion.light_moss","Light Moss Block"
-"item.sulfur_expansion.light_moss.description","Leaking levitation. Feed to a sulfur cube to make it float"
+
+
+"id.sulfur_expansion","Sulfur Expansion","Sulfur Expansion"
+"id.sulfur_expansion.short","Sulfur Expansion","Sulfur Expansion"
+"mcmeta.sulfur_expansion.1","Sulfur Expansion","Sulfur Expansion"
+"mcmeta.sulfur_expansion.2","More Chaos!","Больше хаоса!"
+"mcmeta.sulfur_expansion.3"," by bluffcon + ArbiterLib"," от bluffcon + ArbiterLib"
+"item.sulfur_expansion.sulfur_ball","Sulfur Ball","Серный ком"
+"item.sulfur_expansion.sulfur_ball.description","Inorganic sulfur-rich gel. Great at trapping water","Искуственный гель, насыщенный серой. Отлично удерживает воду"
+"item.sulfur_expansion.hydrated_sulfur_ball","Hydrated Sulfur Ball","Водный серный ком"
+"item.sulfur_expansion.hydrated_sulfur_ball.description","Sulfuric bubble with trapped liquid. Can be used as water","Сернистый пузырь с жидкостью внутри. Можно использовать как воду"
+"item.sulfur_expansion.cinnabar_feed","Cinnabar Feed","Киноварная пища"
+"item.sulfur_expansion.cinnabar_feed.description","Can be fed to small Sulfur Cubes instead of Sulfur Balls","Скармливается маленьким серным кубам заместо серных комов"
+"item.sulfur_expansion.small_sulfur_cube","Small Sulfur Cube","Маленький серный куб"
+"item.sulfur_expansion.small_sulfur_cube.description","A small Sulfur Cube that can't grow up","Мелкий серный кубик, который не может вырасти"
+"block.sulfur_expansion.froglight_sulfate","Froglight Sulfate","Сульфат квампы"
+"block.sulfur_expansion.froglight_sulfate.description","Dirty-yellow light source that's dissolvable in water","Грязно-жёлтый источник света, который растворяется в воде"
+"item.sulfur_expansion.light_moss","Light Moss Block","Лёгкий блок мха"
+"item.sulfur_expansion.light_moss.description","Leaking levitation. Give to a Sulfur Cube to make it float","Полон левитации, дайте серному кубу, чтобы он полетел"
+
+
+
+
+
+"id.exuberance","Exuberance","Exuberance"
+"id.exuberance.short","Exuberance","Exuberance"
+"mcmeta.exuberance.1","Exuberance","Exuberance"
+"mcmeta.exuberance.2","Be one with Redstone!","Будь одним с редстоуном"
+"mcmeta.exuberance.3"," by bluffcon + ArbiterLib"," от bluffcon + ArbiterLib"
+"ui.exuberance.index","Index: ","Индекс: "
+"ui.exuberance.vector","Vector: ","Вектор: "
+"ui.exuberance.factor","Factor: ","Фактор: "
+"ui.exuberance.damage","Damage: ","Урон: "
+"ui.exuberance.index_short","I: ","И: "
+"ui.exuberance.vector_short","V: ","В: "
+"ui.exuberance.factor_short","F: ","Ф: "
+"ui.exuberance.damage_short","DMG: "," АТК: "
+"ui.exuberance.index_plain","I","И"
+"ui.exuberance.vecto_plainr","V","В"
+"ui.exuberance.factor_plain","F","Ф"
+"ui.exuberance.damage_plain","DMG","АТК"
+"ui.exuberance.shatter_pts","[Enemy] Shatter: ","[Врагу] Треск: "
+"ui.exuberance.resonance","Inflict Resonance","Наложить Резонанс"
+"death.attack.exuberance.resonance","%1$s resonated and was shattered like Amethyst gems","%1$s канул в резонанс, вдребезги разбившись как треснувший аметист"
+"ui.exuberance.inflict_effect","Inflict Effect: ","Наложить эффект: "
+
+"ui.exuberance.mfw","Matrix Function Weapon","Оружие Функций Матрицы"
+"ui.exuberance.mfw.abilities","Matrix Function Weapon [Abilities]: ","Оружие функций матрицы [Способности]: "
+"ui.exuberance.mfw.on_hit","On hurt enemy: ","После атаки на врага: "
+"ui.exuberance.mfw.on_hit_off","On hurt enemy (offhand): ","После атаки на врага (во второй руке): "
+"ui.exuberance.mfw.use","On use: ","При использовании: "
+"ui.exuberance.mfw.use_aoe","On use [AOE] with radius: ","При использовании, с радиусом: "
+
+"item.exuberance.redstone_stick","Redstone Stick","Редстоуновая палка"
+"item.exuberance.redstone_stick.description","Fascine infused with conductive Redstone","Дрова пропитанные проводниковым редстоуном"
+
+"item.exuberance.crystal_stick","Crystal Stick","Кристаллическая палочка"
+"item.exuberance.crystal_stick.description","Wand with Amethyst crystals budding near the top","Жезл с растущими кристаллами аметиста на конце"
+"item.exuberance.crystal_stick.mfw.1","If current Vector <20 and Index ≤10","Если текущий Вектор <20 и Индекс ≤10"
+"item.exuberance.crystal_stick.mfw.2","If current Vector ≥20 but ≤100 and Index >-10","Если текущий Вектор ≥20, но ≤100, и Индекс >-10"
+"item.exuberance.crystal_stick.mfw.3","If current Vector >100 and Factor >5","Если текущий Вектор >100 и Фактор >5"
+"item.exuberance.amethyst_bone","Amethyst Bone","Аметистовая кость"
+"item.exuberance.amethyst_bone.description","Extravagant remains from inside a geode","Экстравагантные останки изнутри геоды"
+"item.exuberance.amethyst_bone.mfw.1","If current Vector ≥20 and Index <0","Если текущий Вектор ≥20 и Индекс <0"
+"item.exuberance.amethyst_bone.mfw.2","If current Index ≥20 and Factor ≥20 and Vector ≥20","Если текущий Индекс ≥20 и Фактор ≥20 и Вектор ≥20"
+"item.exuberance.crystal_ball","Crystal Ball","Хрустальный шар"
+"item.exuberance.crystal_ball.description","Magical Amethyst relic that performs wonders","Магическая реликвия из аметиста, творящая чудеса"
+"item.exuberance.crystal_ball.mfw.1","If Targeted Enemy exists and Index ±10 and Factor ≤20","Если есть выбранный враг и Индекс ±10 и Фактор ≤20"
+"item.exuberance.crystal_ball.mfw.2","If Targeted Enemy has Shatter 1-8 and Vector ≤100 unless Index ±10","Если у выбранного врага есть Треск 1-8 и Вектор ≤100, если неверно, что Индекс ±10"
+"item.exuberance.gemstone_ink","Gemstone Ink","Самоцветные чернила"
+"item.exuberance.gemstone_ink.description","Enchanted vial of ink that glisters under light","Зачарованный флакон чернил, что мерцают на свету"
+"item.exuberance.gemstone_ink.mfw.1","If Targeted Enemy has Shatter 1-3","Если у выбранного врага есть Треск 1-3"
+"item.exuberance.gemstone_ink.mfw.2","If Targeted Enemy has Shatter 1-9 and Vector ≤50","Если у выбранного врага есть Треск 1-9 и Вектор ≤50"
+"item.exuberance.gemstone_ink.mfw.3","If Targeted Enemy has Shatter 1-9 and Vector >50","Если у выбранного врага есть Треск 1-9 и Вектор >50"

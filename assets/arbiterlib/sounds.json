@@ -255,5 +255,28 @@
                 "name": "arbiterlib:sfx/small/leafblower/work"
             }
         ]
+    },
+    "sfx.exuberance.shatter": {
+        "sounds": [
+            {
+                "name": "arbiterlib:exuberance/shatter/1"
+            },
+            {
+                "name": "arbiterlib:exuberance/shatter/2"
+            },
+            {
+                "name": "arbiterlib:exuberance/shatter/3"
+            }
+        ]
+    },
+    "sfx.exuberance.shatter.resonance": {
+        "sounds": [
+            {
+                "name": "arbiterlib:exuberance/resonate/1"
+            },
+            {
+                "name": "arbiterlib:exuberance/resonate/2"
+            }
+        ]
     }
 }
