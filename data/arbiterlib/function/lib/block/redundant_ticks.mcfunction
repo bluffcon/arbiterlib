@@ -1,2 +1,2 @@
 
-function #arbiterlib:t/redundant/block_ticks
+function #arbiterlib:t/redundant/blocks

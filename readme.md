@@ -21,7 +21,7 @@ Feature requests and issues are more than welcome! Any size or complexity.
 
 ## Using Arbiter:
 
-It is preferred Arbiter projects implement some or most of the Arbiter conventions. They're made to create a coherent experience that works in every shape and form. **To see all conventions, visit the [`conventions.md` file](https://github.com/bluffcon/arbiterlib/blob/main/conventions.md)**
+It is preferred Arbiter projects implement some or most of the Arbiter conventions. They're made to create a coherent experience that works in every shape and form. **To see all conventions, see the [`conventions.md` file](https://github.com/bluffcon/arbiterlib/blob/main/conventions.md)**
 
 > Check out the [Template Project](https://github.com/bluffcon/example-arbiterlib) for Arbiter to get started! All requirements in implementation are already there. It's always kept up-to-date with the features of this repo.
 

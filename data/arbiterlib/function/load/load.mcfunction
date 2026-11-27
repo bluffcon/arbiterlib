@@ -37,6 +37,7 @@ function arbiterlib:load/message
 
 function arbiterlib:ticks/quick
 function arbiterlib:ticks/regular
+function arbiterlib:ticks/frequent
 function arbiterlib:ticks/redundant
 function #arbiterlib:load
 
