@@ -53,7 +53,7 @@ Since Arbiter doesn't have tags for custom items, the solution is to give your i
 
 # Crafting
 
-# Mandatory
+## Mandatory
 1. Loot tables for custom item outputs should be formatted like `<namespace>:crafts/<item>` in the `loot_table` folder. Items must have these components defined: `item_name`, `item_model`
 
 2. Managed crafting recipes are function files tagged with `#arbiterlib:craft/workbench`. This will let ArbiterLib use your single recipe for both the preview and the crafting.
@@ -79,7 +79,7 @@ run return run function arbiterlib:craft/workbench/craft/macro \
 {namespace: "arbiterlib", loottable: "bread_pickaxe", rarity: "common", max_stack: 1, count: 1}
 ```
 
-5. If you don't need managed crafting, call `arbiterlib:craft/workbench/craft/found` for displaying the preview separately and `arbiterlib:craft/workbench/craft/button/make` for the crafting output with the same macro arguments. This must be done for items that have a separate crafting condition, and the crafting condition must be displayed in the item lore
+5. If you don't need managed crafting, call `arbiterlib:craft/workbench/craft/found` for displaying the preview separately and `arbiterlib:craft/workbench/craft/button/make` for the crafting output with the same macro arguments. This must be done for items that have a separate crafting condition, and the crafting condition must be displayed in the item lore. **Two loot tables that return different items from these functions should always fully match the `custom_data` component**
 
 6. Crafting conditions must be put before the datapack name lore line and should be formatted like so:
 ```json
@@ -119,6 +119,23 @@ if items block ~ ~ ~ container.3 *[custom_data~{arbiterlib:{id:"net", namespace:
 ```
 
 10. Empty slots are matched with `unless items *`
+
+# Smelting
+
+## Mandatory
+1. Loot tables for custom item outputs should be formatted like `<namespace>:smelts/<item>` in the `loot_table` folder. Items must have these components defined: `item_name`, `item_model`
+
+2. Smelting recipes are function files tagged with `#arbiterlib:craft/smeltery`. Unlike crafting, they're not separated into preview and output.
+
+3. Recipes are a function call with a macro and a condition that matches slot 2 in the smeltery. In the macro it matches for current heat and subtracts some from the value.
+
+4. Smelting recipes call `arbiterlib:craft/smeltery/craft/macro` at the end with macro arguments `namespace` (datapack namespace for output item), `loottable` (loot table pointing to `<namespace>:smelts/<item>`), `max_stack` (max item stack), `needed_heat` (the threshold the heat value must reach before the item smelts), `consume_heat` (amount of heat to consume after smelting, should be less than needed heat)
+```js
+execute \
+if items block ~ ~ ~ container.2 clay_ball \
+run return run function arbiterlib:craft/smeltery/craft/macro \
+{namespace: "arbiterlib", loottable: "brick", max_stack: 64, needed_heat: 400, consume_heat: 100}
+```
 
 # Blocks
 

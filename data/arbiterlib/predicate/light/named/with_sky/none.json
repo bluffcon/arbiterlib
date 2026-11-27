@@ -4,7 +4,7 @@
     "light": {
       "light": {
         "min": 0,
-        "max": 1
+        "max": 2
       }
     },
     "can_see_sky": true
