@@ -78,8 +78,8 @@ run return run function arbiterlib:craft/workbench/craft/macro_vanilla_output \
 
 That's all. You can also skip the macro function and do your own thing! You can have separate preview and craft functions with different loot tables (make sure the custom_data still matches up between them). The function call format is the same, except:
 
-- `#arbiterlib:craft/:workbench_previews` will run `arbiterlib:craft/workbench/craft/found`
-- `#arbiterlib::craft/workbench_craft` will run `arbiterlib:craft/workbench/craft/button/make`
+- `#arbiterlib:craftworkbench_previews` will run `arbiterlib:craft/workbench/craft/found`
+- `#arbiterlib:craft/workbench_craft` will run `arbiterlib:craft/workbench/craft/button/make`
 
 Please make sure both are present! If you have a separate preview and craft for this item please don't run the macro!
 

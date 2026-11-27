@@ -267,7 +267,7 @@ Final structure (example):
 
 1. ArbiterLib and its dependants should always be on the latest version of Minecraft. As soon as a new drop/update comes out, the previous versions become obsolete and won't get updates.
 
-2. [Join the Discord](https://discord.gg/wczBNd8qVE) to get updates on changes in these conventions
+2. [Join the Discord](https://discord.gg/wczBNd8qVE) to get updates on changes in these conventions! (mandatory!!)
 
 ## Voluntary
 

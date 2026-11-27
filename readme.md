@@ -31,11 +31,11 @@ It is preferred Arbiter projects implement some or most of the Arbiter conventio
 These are small, but can improve quality of life if used correctly.
 
 - The Arbiter tick system:
-> `#arbiterlib:t/quick` for tick intervals (1t), `#arbiterlib:t/regular` for regular jobs (4t), `#arbiterlib:t/redundant` for things that should happen once in sometimes (160t, modifiable by server admin). Feel free to expand by adding your own ticks to `#arbiterlib:load`
+> `#arbiterlib:t/quick` for tick intervals (1t), `#arbiterlib:t/regular` for regular jobs (4t), `#arbiterlib:t/frequent` for often things (20t), `#arbiterlib:t/redundant` for things that should happen once in sometimes (5s, modifiable by server admins). Load function `#arbiterlib:load` to make datapack order not matter
 
 - Arbiter's `arbiterlib:player` score id system, from which you can access player data by using a macro on `arbiterlib:player_data` storage
 
-- Arbiter's tags, one can be excluding `#arbiterlib:inanimate` to search for living entities, or checking if this block is `#arbiterlib:
+- Arbiter's tags, one can be excluding `#arbiterlib:inanimate` to search for living entities, or checking if this block `#arbiterlib:contains_water` in it
 
 For the rest of features and information, **please visit the [`info.md` file](https://github.com/bluffcon/arbiterlib/blob/main/info.md)**
 
